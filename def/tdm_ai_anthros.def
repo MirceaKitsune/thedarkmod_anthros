@@ -1,0 +1,787 @@
+model anthro_body_male
+{
+	inherit			tdm_ai_proguard
+//	mesh			models/md5/chars/anthros/anthro_body_male_nude.md5mesh
+	mesh			models/md5/chars/anthros/anthro_body_male.md5mesh
+	channel torso	(*Spine_Dummy)
+	channel legs	(origin Pelvis Pelvis2 *Hips)
+}
+
+model anthro_body_female
+{
+	inherit			tdm_ai_female
+//	mesh			models/md5/chars/anthros/anthro_body_female_nude.md5mesh
+	mesh			models/md5/chars/anthros/anthro_body_female.md5mesh
+	channel torso	(*Spine_Dummy)
+	channel legs	(origin Pelvis Pelvis2 *Hips)
+}
+
+model anthro_head_lupine
+{
+	inherit			head_model_base
+	mesh			models/md5/chars/anthros/anthro_head_lupine.md5mesh
+}
+
+model anthro_head_vulpine
+{
+	inherit			head_model_base
+	mesh			models/md5/chars/anthros/anthro_head_vulpine.md5mesh
+}
+
+model anthro_head_felidae
+{
+	inherit			head_model_base
+	mesh			models/md5/chars/anthros/anthro_head_felidae.md5mesh
+}
+
+model anthro_head_sciuridae
+{
+	inherit			head_model_base
+	mesh			models/md5/chars/anthros/anthro_head_sciuridae.md5mesh
+}
+
+model anthro_head_lapine
+{
+	inherit			head_model_base
+	mesh			models/md5/chars/anthros/anthro_head_lapine.md5mesh
+}
+
+entityDef atdm:ai_anthro_hair_yellow
+{
+	"inherit"					"func_static"
+	"editor_displayFolder"		"AI/Anthros/Props"
+
+	"model"						"models/md5/chars/anthros/anthro_hair.lwo"
+	"skin"          			"anthros/anthro_hair_yellow"
+
+	"frobable"					"0"
+	"remove"					"0"
+	"drop_set_frobable"			"0"
+
+	"mass"						"0.1"
+
+	"joint" 					"Head"
+	"origin"					"4 -73 0"
+	"angles"					"0 0 -90"
+}
+
+entityDef atdm:ai_anthro_hair_orange
+{
+	"inherit"					"func_static"
+	"editor_displayFolder"		"AI/Anthros/Props"
+
+	"model"						"models/md5/chars/anthros/anthro_hair.lwo"
+	"skin"          			"anthros/anthro_hair_orange"
+
+	"frobable"					"0"
+	"remove"					"0"
+	"drop_set_frobable"			"0"
+
+	"mass"						"0.1"
+
+	"joint" 					"Head"
+	"origin"					"4 -73 0"
+	"angles"					"0 0 -90"
+}
+
+entityDef atdm:ai_anthro_hair_red
+{
+	"inherit"					"func_static"
+	"editor_displayFolder"		"AI/Anthros/Props"
+
+	"model"						"models/md5/chars/anthros/anthro_hair.lwo"
+	"skin"          			"anthros/anthro_hair_red"
+
+	"frobable"					"0"
+	"remove"					"0"
+	"drop_set_frobable"			"0"
+
+	"mass"						"0.1"
+
+	"joint" 					"Head"
+	"origin"					"4 -73 0"
+	"angles"					"0 0 -90"
+}
+
+entityDef atdm:ai_anthro_hair_white
+{
+	"inherit"					"func_static"
+	"editor_displayFolder"		"AI/Anthros/Props"
+
+	"model"						"models/md5/chars/anthros/anthro_hair.lwo"
+	"skin"          			"anthros/anthro_hair_white"
+
+	"frobable"					"0"
+	"remove"					"0"
+	"drop_set_frobable"			"0"
+
+	"mass"						"0.1"
+
+	"joint" 					"Head"
+	"origin"					"4 -73 0"
+	"angles"					"0 0 -90"
+}
+
+entityDef atdm:ai_anthro_hair_black
+{
+	"inherit"					"func_static"
+	"editor_displayFolder"		"AI/Anthros/Props"
+
+	"model"						"models/md5/chars/anthros/anthro_hair.lwo"
+	"skin"          			"anthros/anthro_hair_black"
+
+	"frobable"					"0"
+	"remove"					"0"
+	"drop_set_frobable"			"0"
+
+	"mass"						"0.1"
+
+	"joint" 					"Head"
+	"origin"					"4 -73 0"
+	"angles"					"0 0 -90"
+}
+
+entityDef atdm:ai_anthro_head_lupine_male_silver
+{
+	"editor_usage"  "Lupine head, silver (not visible in editor)."
+	"inherit"		"atdm:ai_head_base"
+	"model"			"anthro_head_lupine"
+	"skin"          "anthros/anthro_head_silver"
+
+	"ko_alert_immune_state" "5" // cannot be KO'd when in Combat
+}
+
+entityDef atdm:ai_anthro_head_lupine_male_gray
+{
+	"editor_usage"  "Lupine head, gray (not visible in editor)."
+	"inherit"		"atdm:ai_head_base"
+	"model"			"anthro_head_lupine"
+	"skin"          "anthros/anthro_head_gray"
+
+	"ko_alert_immune_state" "5" // cannot be KO'd when in Combat
+}
+
+entityDef atdm:ai_anthro_head_lupine_male_black
+{
+	"editor_usage"  "Lupine head, black (not visible in editor)."
+	"inherit"		"atdm:ai_head_base"
+	"model"			"anthro_head_lupine"
+	"skin"          "anthros/anthro_head_black"
+
+	"ko_alert_immune_state" "5" // cannot be KO'd when in Combat
+}
+
+entityDef atdm:ai_anthro_head_lupine_female_silver
+{
+	"editor_usage"  "Lupine head, silver (not visible in editor)."
+	"inherit"		"atdm:ai_head_base"
+	"model"			"anthro_head_lupine"
+	"skin"          "anthros/anthro_head_silver"
+
+	"def_attach1"	"atdm:ai_anthro_hair_yellow"
+	"name_attach1"	"hair"
+	"pos_attach1"	"Head"
+
+	"ko_alert_immune_state" "5" // cannot be KO'd when in Combat
+}
+
+entityDef atdm:ai_anthro_head_lupine_female_gray
+{
+	"editor_usage"  "Lupine head, gray (not visible in editor)."
+	"inherit"		"atdm:ai_head_base"
+	"model"			"anthro_head_lupine"
+	"skin"          "anthros/anthro_head_gray"
+
+	"def_attach1"	"atdm:ai_anthro_hair_orange"
+	"name_attach1"	"hair"
+	"pos_attach1"	"Head"
+
+	"ko_alert_immune_state" "5" // cannot be KO'd when in Combat
+}
+
+entityDef atdm:ai_anthro_head_lupine_female_black
+{
+	"editor_usage"  "Lupine head, black (not visible in editor)."
+	"inherit"		"atdm:ai_head_base"
+	"model"			"anthro_head_lupine"
+	"skin"          "anthros/anthro_head_black"
+
+	"def_attach1"	"atdm:ai_anthro_hair_red"
+	"name_attach1"	"hair"
+	"pos_attach1"	"Head"
+
+	"ko_alert_immune_state" "5" // cannot be KO'd when in Combat
+}
+
+entityDef atdm:ai_anthro_head_vulpine_male_red
+{
+	"editor_usage"  "Vulpine head, red (not visible in editor)."
+	"inherit"		"atdm:ai_head_base"
+	"model"			"anthro_head_vulpine"
+	"skin"          "anthros/anthro_head_red"
+
+	"ko_alert_immune_state" "5" // cannot be KO'd when in Combat
+}
+
+entityDef atdm:ai_anthro_head_vulpine_male_silver
+{
+	"editor_usage"  "Vulpine head, silver (not visible in editor)."
+	"inherit"		"atdm:ai_head_base"
+	"model"			"anthro_head_vulpine"
+	"skin"          "anthros/anthro_head_silver"
+
+	"ko_alert_immune_state" "5" // cannot be KO'd when in Combat
+}
+
+entityDef atdm:ai_anthro_head_vulpine_male_black
+{
+	"editor_usage"  "Vulpine head, black (not visible in editor)."
+	"inherit"		"atdm:ai_head_base"
+	"model"			"anthro_head_vulpine"
+	"skin"          "anthros/anthro_head_black"
+
+	"ko_alert_immune_state" "5" // cannot be KO'd when in Combat
+}
+
+entityDef atdm:ai_anthro_head_vulpine_female_red
+{
+	"editor_usage"  "Vulpine head, red (not visible in editor)."
+	"inherit"		"atdm:ai_head_base"
+	"model"			"anthro_head_vulpine"
+	"skin"          "anthros/anthro_head_red"
+
+	"def_attach1"	"atdm:ai_anthro_hair_black"
+	"name_attach1"	"hair"
+	"pos_attach1"	"Head"
+
+	"ko_alert_immune_state" "5" // cannot be KO'd when in Combat
+}
+
+entityDef atdm:ai_anthro_head_vulpine_female_silver
+{
+	"editor_usage"  "Vulpine head, silver (not visible in editor)."
+	"inherit"		"atdm:ai_head_base"
+	"model"			"anthro_head_vulpine"
+	"skin"          "anthros/anthro_head_silver"
+
+	"def_attach1"	"atdm:ai_anthro_hair_yellow"
+	"name_attach1"	"hair"
+	"pos_attach1"	"Head"
+
+	"ko_alert_immune_state" "5" // cannot be KO'd when in Combat
+}
+
+entityDef atdm:ai_anthro_head_vulpine_female_black
+{
+	"editor_usage"  "Vulpine head, black (not visible in editor)."
+	"inherit"		"atdm:ai_head_base"
+	"model"			"anthro_head_vulpine"
+	"skin"          "anthros/anthro_head_black"
+
+	"def_attach1"	"atdm:ai_anthro_hair_red"
+	"name_attach1"	"hair"
+	"pos_attach1"	"Head"
+
+	"ko_alert_immune_state" "5" // cannot be KO'd when in Combat
+}
+
+entityDef atdm:ai_anthro_head_felidae_male_yellow
+{
+	"editor_usage"  "Felidae head, yellow (not visible in editor)."
+	"inherit"		"atdm:ai_head_base"
+	"model"			"anthro_head_felidae"
+	"skin"          "anthros/anthro_head_yellow"
+
+	"ko_alert_immune_state" "5" // cannot be KO'd when in Combat
+}
+
+entityDef atdm:ai_anthro_head_felidae_male_white
+{
+	"editor_usage"  "Felidae head, white (not visible in editor)."
+	"inherit"		"atdm:ai_head_base"
+	"model"			"anthro_head_felidae"
+	"skin"          "anthros/anthro_head_white"
+
+	"ko_alert_immune_state" "5" // cannot be KO'd when in Combat
+}
+
+entityDef atdm:ai_anthro_head_felidae_male_black
+{
+	"editor_usage"  "Felidae head, black (not visible in editor)."
+	"inherit"		"atdm:ai_head_base"
+	"model"			"anthro_head_felidae"
+	"skin"          "anthros/anthro_head_black"
+
+	"ko_alert_immune_state" "5" // cannot be KO'd when in Combat
+}
+
+entityDef atdm:ai_anthro_head_felidae_female_yellow
+{
+	"editor_usage"  "Felidae head, yellow (not visible in editor)."
+	"inherit"		"atdm:ai_head_base"
+	"model"			"anthro_head_felidae"
+	"skin"          "anthros/anthro_head_yellow"
+
+	"def_attach1"	"atdm:ai_anthro_hair_yellow"
+	"name_attach1"	"hair"
+	"pos_attach1"	"Head"
+
+	"ko_alert_immune_state" "5" // cannot be KO'd when in Combat
+}
+
+entityDef atdm:ai_anthro_head_felidae_female_white
+{
+	"editor_usage"  "Felidae head, white (not visible in editor)."
+	"inherit"		"atdm:ai_head_base"
+	"model"			"anthro_head_felidae"
+	"skin"          "anthros/anthro_head_white"
+
+	"def_attach1"	"atdm:ai_anthro_hair_black"
+	"name_attach1"	"hair"
+	"pos_attach1"	"Head"
+
+	"ko_alert_immune_state" "5" // cannot be KO'd when in Combat
+}
+
+entityDef atdm:ai_anthro_head_felidae_female_black
+{
+	"editor_usage"  "Felidae head, black (not visible in editor)."
+	"inherit"		"atdm:ai_head_base"
+	"model"			"anthro_head_felidae"
+	"skin"          "anthros/anthro_head_black"
+
+	"def_attach1"	"atdm:ai_anthro_hair_white"
+	"name_attach1"	"hair"
+	"pos_attach1"	"Head"
+
+	"ko_alert_immune_state" "5" // cannot be KO'd when in Combat
+}
+
+entityDef atdm:ai_anthro_head_sciuridae_male_orange
+{
+	"editor_usage"  "Felidae head, orange (not visible in editor)."
+	"inherit"		"atdm:ai_head_base"
+	"model"			"anthro_head_sciuridae"
+	"skin"          "anthros/anthro_head_orange"
+
+	"ko_alert_immune_state" "5" // cannot be KO'd when in Combat
+}
+
+entityDef atdm:ai_anthro_head_sciuridae_male_silver
+{
+	"editor_usage"  "Felidae head, silver (not visible in editor)."
+	"inherit"		"atdm:ai_head_base"
+	"model"			"anthro_head_sciuridae"
+	"skin"          "anthros/anthro_head_silver"
+
+	"ko_alert_immune_state" "5" // cannot be KO'd when in Combat
+}
+
+entityDef atdm:ai_anthro_head_sciuridae_male_black
+{
+	"editor_usage"  "Felidae head, black (not visible in editor)."
+	"inherit"		"atdm:ai_head_base"
+	"model"			"anthro_head_sciuridae"
+	"skin"          "anthros/anthro_head_black"
+
+	"ko_alert_immune_state" "5" // cannot be KO'd when in Combat
+}
+
+entityDef atdm:ai_anthro_head_sciuridae_female_orange
+{
+	"editor_usage"  "Felidae head, orange (not visible in editor)."
+	"inherit"		"atdm:ai_head_base"
+	"model"			"anthro_head_sciuridae"
+	"skin"          "anthros/anthro_head_orange"
+
+	"def_attach1"	"atdm:ai_anthro_hair_orange"
+	"name_attach1"	"hair"
+	"pos_attach1"	"Head"
+
+	"ko_alert_immune_state" "5" // cannot be KO'd when in Combat
+}
+
+entityDef atdm:ai_anthro_head_sciuridae_female_silver
+{
+	"editor_usage"  "Felidae head, silver (not visible in editor)."
+	"inherit"		"atdm:ai_head_base"
+	"model"			"anthro_head_sciuridae"
+	"skin"          "anthros/anthro_head_silver"
+
+	"def_attach1"	"atdm:ai_anthro_hair_white"
+	"name_attach1"	"hair"
+	"pos_attach1"	"Head"
+
+	"ko_alert_immune_state" "5" // cannot be KO'd when in Combat
+}
+
+entityDef atdm:ai_anthro_head_sciuridae_female_black
+{
+	"editor_usage"  "Felidae head, black (not visible in editor)."
+	"inherit"		"atdm:ai_head_base"
+	"model"			"anthro_head_sciuridae"
+	"skin"          "anthros/anthro_head_black"
+
+	"def_attach1"	"atdm:ai_anthro_hair_black"
+	"name_attach1"	"hair"
+	"pos_attach1"	"Head"
+
+	"ko_alert_immune_state" "5" // cannot be KO'd when in Combat
+}
+
+entityDef atdm:ai_anthro_head_lapine_male_silver
+{
+	"editor_usage"  "Lupine head, silver (not visible in editor)."
+	"inherit"		"atdm:ai_head_base"
+	"model"			"anthro_head_lapine"
+	"skin"          "anthros/anthro_head_silver"
+
+	"ko_alert_immune_state" "5" // cannot be KO'd when in Combat
+}
+
+entityDef atdm:ai_anthro_head_lapine_male_gray
+{
+	"editor_usage"  "Lupine head, gray (not visible in editor)."
+	"inherit"		"atdm:ai_head_base"
+	"model"			"anthro_head_lapine"
+	"skin"          "anthros/anthro_head_gray"
+
+	"ko_alert_immune_state" "5" // cannot be KO'd when in Combat
+}
+
+entityDef atdm:ai_anthro_head_lapine_male_black
+{
+	"editor_usage"  "Lupine head, black (not visible in editor)."
+	"inherit"		"atdm:ai_head_base"
+	"model"			"anthro_head_lapine"
+	"skin"          "anthros/anthro_head_black"
+
+	"ko_alert_immune_state" "5" // cannot be KO'd when in Combat
+}
+
+entityDef atdm:ai_anthro_head_lapine_female_silver
+{
+	"editor_usage"  "Lupine head, silver (not visible in editor)."
+	"inherit"		"atdm:ai_head_base"
+	"model"			"anthro_head_lapine"
+	"skin"          "anthros/anthro_head_silver"
+
+	"def_attach1"	"atdm:ai_anthro_hair_black"
+	"name_attach1"	"hair"
+	"pos_attach1"	"Head"
+
+	"ko_alert_immune_state" "5" // cannot be KO'd when in Combat
+}
+
+entityDef atdm:ai_anthro_head_lapine_female_gray
+{
+	"editor_usage"  "Lupine head, gray (not visible in editor)."
+	"inherit"		"atdm:ai_head_base"
+	"model"			"anthro_head_lapine"
+	"skin"          "anthros/anthro_head_gray"
+
+	"def_attach1"	"atdm:ai_anthro_hair_orange"
+	"name_attach1"	"hair"
+	"pos_attach1"	"Head"
+
+	"ko_alert_immune_state" "5" // cannot be KO'd when in Combat
+}
+
+entityDef atdm:ai_anthro_head_lapine_female_black
+{
+	"editor_usage"  "Lupine head, black (not visible in editor)."
+	"inherit"		"atdm:ai_head_base"
+	"model"			"anthro_head_lapine"
+	"skin"          "anthros/anthro_head_black"
+
+	"def_attach1"	"atdm:ai_anthro_hair_white"
+	"name_attach1"	"hair"
+	"pos_attach1"	"Head"
+
+	"ko_alert_immune_state" "5" // cannot be KO'd when in Combat
+}
+
+entityDef atdm:ai_anthro_tail_lupine_silver
+{
+	"inherit"					"func_static"
+	"editor_displayFolder"		"AI/Anthros/Props"
+
+	"model"						"models/md5/chars/anthros/anthro_tail_lupine.lwo"
+	"skin"          			"anthros/anthro_tail_silver"
+
+	"frobable"					"0"
+	"remove"					"0"
+	"drop_set_frobable"			"0"
+
+	"mass"						"1"
+
+	"joint" 					"Hips"
+	"origin"					"2 -42.5 0"
+	"angles"					"0 0 -90"
+}
+
+entityDef atdm:ai_anthro_tail_lupine_gray
+{
+	"inherit"					"func_static"
+	"editor_displayFolder"		"AI/Anthros/Props"
+
+	"model"						"models/md5/chars/anthros/anthro_tail_lupine.lwo"
+	"skin"          			"anthros/anthro_tail_gray"
+
+	"frobable"					"0"
+	"remove"					"0"
+	"drop_set_frobable"			"0"
+
+	"mass"						"1"
+
+	"joint" 					"Hips"
+	"origin"					"2 -42.5 0"
+	"angles"					"0 0 -90"
+}
+
+entityDef atdm:ai_anthro_tail_lupine_black
+{
+	"inherit"					"func_static"
+	"editor_displayFolder"		"AI/Anthros/Props"
+
+	"model"						"models/md5/chars/anthros/anthro_tail_lupine.lwo"
+	"skin"          			"anthros/anthro_tail_black"
+
+	"frobable"					"0"
+	"remove"					"0"
+	"drop_set_frobable"			"0"
+
+	"mass"						"1"
+
+	"joint" 					"Hips"
+	"origin"					"2 -42.5 0"
+	"angles"					"0 0 -90"
+}
+
+entityDef atdm:ai_anthro_tail_vulpine_red
+{
+	"inherit"					"func_static"
+	"editor_displayFolder"		"AI/Anthros/Props"
+
+	"model"						"models/md5/chars/anthros/anthro_tail_vulpine.lwo"
+	"skin"          			"anthros/anthro_tail_red"
+
+	"frobable"					"0"
+	"remove"					"0"
+	"drop_set_frobable"			"0"
+
+	"mass"						"1"
+
+	"joint" 					"Hips"
+	"origin"					"2 -42.5 0"
+	"angles"					"0 0 -90"
+}
+
+entityDef atdm:ai_anthro_tail_vulpine_silver
+{
+	"inherit"					"func_static"
+	"editor_displayFolder"		"AI/Anthros/Props"
+
+	"model"						"models/md5/chars/anthros/anthro_tail_vulpine.lwo"
+	"skin"          			"anthros/anthro_tail_silver"
+
+	"frobable"					"0"
+	"remove"					"0"
+	"drop_set_frobable"			"0"
+
+	"mass"						"1"
+
+	"joint" 					"Hips"
+	"origin"					"2 -42.5 0"
+	"angles"					"0 0 -90"
+}
+
+entityDef atdm:ai_anthro_tail_vulpine_black
+{
+	"inherit"					"func_static"
+	"editor_displayFolder"		"AI/Anthros/Props"
+
+	"model"						"models/md5/chars/anthros/anthro_tail_vulpine.lwo"
+	"skin"          			"anthros/anthro_tail_black"
+
+	"frobable"					"0"
+	"remove"					"0"
+	"drop_set_frobable"			"0"
+
+	"mass"						"1"
+
+	"joint" 					"Hips"
+	"origin"					"2 -42.5 0"
+	"angles"					"0 0 -90"
+}
+
+entityDef atdm:ai_anthro_tail_felidae_yellow
+{
+	"inherit"					"func_static"
+	"editor_displayFolder"		"AI/Anthros/Props"
+
+	"model"						"models/md5/chars/anthros/anthro_tail_felidae.lwo"
+	"skin"          			"anthros/anthro_tail_yellow"
+
+	"frobable"					"0"
+	"remove"					"0"
+	"drop_set_frobable"			"0"
+
+	"mass"						"1"
+
+	"joint" 					"Hips"
+	"origin"					"2 -42.5 0"
+	"angles"					"0 0 -90"
+}
+
+entityDef atdm:ai_anthro_tail_felidae_white
+{
+	"inherit"					"func_static"
+	"editor_displayFolder"		"AI/Anthros/Props"
+
+	"model"						"models/md5/chars/anthros/anthro_tail_felidae.lwo"
+	"skin"          			"anthros/anthro_tail_white"
+
+	"frobable"					"0"
+	"remove"					"0"
+	"drop_set_frobable"			"0"
+
+	"mass"						"1"
+
+	"joint" 					"Hips"
+	"origin"					"2 -42.5 0"
+	"angles"					"0 0 -90"
+}
+
+entityDef atdm:ai_anthro_tail_felidae_black
+{
+	"inherit"					"func_static"
+	"editor_displayFolder"		"AI/Anthros/Props"
+
+	"model"						"models/md5/chars/anthros/anthro_tail_felidae.lwo"
+	"skin"          			"anthros/anthro_tail_black"
+
+	"frobable"					"0"
+	"remove"					"0"
+	"drop_set_frobable"			"0"
+
+	"mass"						"1"
+
+	"joint" 					"Hips"
+	"origin"					"2 -42.5 0"
+	"angles"					"0 0 -90"
+}
+
+entityDef atdm:ai_anthro_tail_sciuridae_orange
+{
+	"inherit"					"func_static"
+	"editor_displayFolder"		"AI/Anthros/Props"
+
+	"model"						"models/md5/chars/anthros/anthro_tail_sciuridae.lwo"
+	"skin"          			"anthros/anthro_tail_orange"
+
+	"frobable"					"0"
+	"remove"					"0"
+	"drop_set_frobable"			"0"
+
+	"mass"						"1"
+
+	"joint" 					"Hips"
+	"origin"					"2 -42.5 0"
+	"angles"					"0 0 -90"
+}
+
+entityDef atdm:ai_anthro_tail_sciuridae_silver
+{
+	"inherit"					"func_static"
+	"editor_displayFolder"		"AI/Anthros/Props"
+
+	"model"						"models/md5/chars/anthros/anthro_tail_sciuridae.lwo"
+	"skin"          			"anthros/anthro_tail_silver"
+
+	"frobable"					"0"
+	"remove"					"0"
+	"drop_set_frobable"			"0"
+
+	"mass"						"1"
+
+	"joint" 					"Hips"
+	"origin"					"2 -42.5 0"
+	"angles"					"0 0 -90"
+}
+
+entityDef atdm:ai_anthro_tail_sciuridae_black
+{
+	"inherit"					"func_static"
+	"editor_displayFolder"		"AI/Anthros/Props"
+
+	"model"						"models/md5/chars/anthros/anthro_tail_sciuridae.lwo"
+	"skin"          			"anthros/anthro_tail_black"
+
+	"frobable"					"0"
+	"remove"					"0"
+	"drop_set_frobable"			"0"
+
+	"mass"						"1"
+
+	"joint" 					"Hips"
+	"origin"					"2 -42.5 0"
+	"angles"					"0 0 -90"
+}
+
+entityDef atdm:ai_anthro_tail_lapine_silver
+{
+	"inherit"					"func_static"
+	"editor_displayFolder"		"AI/Anthros/Props"
+
+	"model"						"models/md5/chars/anthros/anthro_tail_lapine.lwo"
+	"skin"          			"anthros/anthro_tail_silver"
+
+	"frobable"					"0"
+	"remove"					"0"
+	"drop_set_frobable"			"0"
+
+	"mass"						"1"
+
+	"joint" 					"Hips"
+	"origin"					"2 -42.5 0"
+	"angles"					"0 0 -90"
+}
+
+entityDef atdm:ai_anthro_tail_lapine_gray
+{
+	"inherit"					"func_static"
+	"editor_displayFolder"		"AI/Anthros/Props"
+
+	"model"						"models/md5/chars/anthros/anthro_tail_lapine.lwo"
+	"skin"          			"anthros/anthro_tail_gray"
+
+	"frobable"					"0"
+	"remove"					"0"
+	"drop_set_frobable"			"0"
+
+	"mass"						"1"
+
+	"joint" 					"Hips"
+	"origin"					"2 -42.5 0"
+	"angles"					"0 0 -90"
+}
+
+entityDef atdm:ai_anthro_tail_lapine_black
+{
+	"inherit"					"func_static"
+	"editor_displayFolder"		"AI/Anthros/Props"
+
+	"model"						"models/md5/chars/anthros/anthro_tail_lapine.lwo"
+	"skin"          			"anthros/anthro_tail_black"
+
+	"frobable"					"0"
+	"remove"					"0"
+	"drop_set_frobable"			"0"
+
+	"mass"						"1"
+
+	"joint" 					"Hips"
+	"origin"					"2 -42.5 0"
+	"angles"					"0 0 -90"
+}

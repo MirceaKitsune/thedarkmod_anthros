@@ -1,0 +1,307 @@
+skin anthros/anthro_hair_yellow
+{
+	model models/md5/chars/anthros/anthro_hair.lwo
+
+	models/md5/chars/anthros/anthro_hair models/md5/chars/anthros/anthro_hair_yellow
+}
+
+skin anthros/anthro_hair_orange
+{
+	model models/md5/chars/anthros/anthro_hair.lwo
+
+	models/md5/chars/anthros/anthro_hair models/md5/chars/anthros/anthro_hair_orange
+}
+
+skin anthros/anthro_hair_red
+{
+	model models/md5/chars/anthros/anthro_hair.lwo
+
+	models/md5/chars/anthros/anthro_hair models/md5/chars/anthros/anthro_hair_red
+}
+
+skin anthros/anthro_hair_white
+{
+	model models/md5/chars/anthros/anthro_hair.lwo
+
+	models/md5/chars/anthros/anthro_hair models/md5/chars/anthros/anthro_hair_white
+}
+
+skin anthros/anthro_hair_black
+{
+	model models/md5/chars/anthros/anthro_hair.lwo
+
+	models/md5/chars/anthros/anthro_hair models/md5/chars/anthros/anthro_hair_black
+}
+
+skin anthros/anthro_body_yellow
+{
+	model models/md5/chars/anthros/anthro_body_male.md5mesh
+	model models/md5/chars/anthros/anthro_body_male_nude.md5mesh
+	model models/md5/chars/anthros/anthro_body_female.md5mesh
+	model models/md5/chars/anthros/anthro_body_female_nude.md5mesh
+	model anthro_body_male
+	model anthro_body_male_nude
+	model anthro_body_female
+	model anthro_body_female_nude
+
+	models/md5/chars/anthros/anthro_body models/md5/chars/anthros/anthro_body_yellow
+}
+
+skin anthros/anthro_body_orange
+{
+	model models/md5/chars/anthros/anthro_body_male.md5mesh
+	model models/md5/chars/anthros/anthro_body_male_nude.md5mesh
+	model models/md5/chars/anthros/anthro_body_female.md5mesh
+	model models/md5/chars/anthros/anthro_body_female_nude.md5mesh
+	model anthro_body_male
+	model anthro_body_male_nude
+	model anthro_body_female
+	model anthro_body_female_nude
+
+	models/md5/chars/anthros/anthro_body models/md5/chars/anthros/anthro_body_orange
+}
+
+skin anthros/anthro_body_red
+{
+	model models/md5/chars/anthros/anthro_body_male.md5mesh
+	model models/md5/chars/anthros/anthro_body_male_nude.md5mesh
+	model models/md5/chars/anthros/anthro_body_female.md5mesh
+	model models/md5/chars/anthros/anthro_body_female_nude.md5mesh
+	model anthro_body_male
+	model anthro_body_male_nude
+	model anthro_body_female
+	model anthro_body_female_nude
+
+	models/md5/chars/anthros/anthro_body models/md5/chars/anthros/anthro_body_red
+}
+
+skin anthros/anthro_body_white
+{
+	model models/md5/chars/anthros/anthro_body_male.md5mesh
+	model models/md5/chars/anthros/anthro_body_male_nude.md5mesh
+	model models/md5/chars/anthros/anthro_body_female.md5mesh
+	model models/md5/chars/anthros/anthro_body_female_nude.md5mesh
+	model anthro_body_male
+	model anthro_body_male_nude
+	model anthro_body_female
+	model anthro_body_female_nude
+
+	models/md5/chars/anthros/anthro_body models/md5/chars/anthros/anthro_body_white
+}
+
+skin anthros/anthro_body_silver
+{
+	model models/md5/chars/anthros/anthro_body_male.md5mesh
+	model models/md5/chars/anthros/anthro_body_male_nude.md5mesh
+	model models/md5/chars/anthros/anthro_body_female.md5mesh
+	model models/md5/chars/anthros/anthro_body_female_nude.md5mesh
+	model anthro_body_male
+	model anthro_body_male_nude
+	model anthro_body_female
+	model anthro_body_female_nude
+
+	models/md5/chars/anthros/anthro_body models/md5/chars/anthros/anthro_body_silver
+}
+
+skin anthros/anthro_body_gray
+{
+	model models/md5/chars/anthros/anthro_body_male.md5mesh
+	model models/md5/chars/anthros/anthro_body_male_nude.md5mesh
+	model models/md5/chars/anthros/anthro_body_female.md5mesh
+	model models/md5/chars/anthros/anthro_body_female_nude.md5mesh
+	model anthro_body_male
+	model anthro_body_male_nude
+	model anthro_body_female
+	model anthro_body_female_nude
+
+	models/md5/chars/anthros/anthro_body models/md5/chars/anthros/anthro_body_gray
+}
+
+skin anthros/anthro_body_black
+{
+	model models/md5/chars/anthros/anthro_body_male.md5mesh
+	model models/md5/chars/anthros/anthro_body_male_nude.md5mesh
+	model models/md5/chars/anthros/anthro_body_female.md5mesh
+	model models/md5/chars/anthros/anthro_body_female_nude.md5mesh
+	model anthro_body_male
+	model anthro_body_male_nude
+	model anthro_body_female
+	model anthro_body_female_nude
+
+	models/md5/chars/anthros/anthro_body models/md5/chars/anthros/anthro_body_black
+}
+
+skin anthros/anthro_head_yellow
+{
+	model models/md5/chars/anthros/anthro_head_lupine.md5mesh
+	model models/md5/chars/anthros/anthro_head_vulpine.md5mesh
+	model models/md5/chars/anthros/anthro_head_felidae.md5mesh
+	model models/md5/chars/anthros/anthro_head_sciuridae.md5mesh
+	model models/md5/chars/anthros/anthro_head_lapine.md5mesh
+	model anthro_head_lupine
+	model anthro_head_vulpine
+	model anthro_head_felidae
+	model anthro_head_sciuridae
+	model anthro_head_lapine
+
+	models/md5/chars/anthros/anthro_body models/md5/chars/anthros/anthro_body_yellow
+	models/md5/chars/anthros/anthro_mouth models/md5/chars/anthros/anthro_mouth
+	models/md5/chars/anthros/anthro_eye models/md5/chars/anthros/anthro_eye_green
+}
+
+skin anthros/anthro_head_orange
+{
+	model models/md5/chars/anthros/anthro_head_lupine.md5mesh
+	model models/md5/chars/anthros/anthro_head_vulpine.md5mesh
+	model models/md5/chars/anthros/anthro_head_felidae.md5mesh
+	model models/md5/chars/anthros/anthro_head_sciuridae.md5mesh
+	model models/md5/chars/anthros/anthro_head_lapine.md5mesh
+	model anthro_head_lupine
+	model anthro_head_vulpine
+	model anthro_head_felidae
+	model anthro_head_sciuridae
+	model anthro_head_lapine
+
+	models/md5/chars/anthros/anthro_body models/md5/chars/anthros/anthro_body_orange
+	models/md5/chars/anthros/anthro_mouth models/md5/chars/anthros/anthro_mouth
+	models/md5/chars/anthros/anthro_eye models/md5/chars/anthros/anthro_eye_red
+}
+
+skin anthros/anthro_head_red
+{
+	model models/md5/chars/anthros/anthro_head_lupine.md5mesh
+	model models/md5/chars/anthros/anthro_head_vulpine.md5mesh
+	model models/md5/chars/anthros/anthro_head_felidae.md5mesh
+	model models/md5/chars/anthros/anthro_head_sciuridae.md5mesh
+	model models/md5/chars/anthros/anthro_head_lapine.md5mesh
+	model anthro_head_lupine
+	model anthro_head_vulpine
+	model anthro_head_felidae
+	model anthro_head_sciuridae
+	model anthro_head_lapine
+
+	models/md5/chars/anthros/anthro_body models/md5/chars/anthros/anthro_body_red
+	models/md5/chars/anthros/anthro_mouth models/md5/chars/anthros/anthro_mouth
+	models/md5/chars/anthros/anthro_eye models/md5/chars/anthros/anthro_eye_magenta
+}
+
+skin anthros/anthro_head_white
+{
+	model models/md5/chars/anthros/anthro_head_lupine.md5mesh
+	model models/md5/chars/anthros/anthro_head_vulpine.md5mesh
+	model models/md5/chars/anthros/anthro_head_felidae.md5mesh
+	model models/md5/chars/anthros/anthro_head_sciuridae.md5mesh
+	model models/md5/chars/anthros/anthro_head_lapine.md5mesh
+	model anthro_head_lupine
+	model anthro_head_vulpine
+	model anthro_head_felidae
+	model anthro_head_sciuridae
+	model anthro_head_lapine
+
+	models/md5/chars/anthros/anthro_body models/md5/chars/anthros/anthro_body_white
+	models/md5/chars/anthros/anthro_mouth models/md5/chars/anthros/anthro_mouth
+	models/md5/chars/anthros/anthro_eye models/md5/chars/anthros/anthro_eye_yellow
+}
+
+skin anthros/anthro_head_silver
+{
+	model models/md5/chars/anthros/anthro_head_lupine.md5mesh
+	model models/md5/chars/anthros/anthro_head_vulpine.md5mesh
+	model models/md5/chars/anthros/anthro_head_felidae.md5mesh
+	model models/md5/chars/anthros/anthro_head_sciuridae.md5mesh
+	model models/md5/chars/anthros/anthro_head_lapine.md5mesh
+	model anthro_head_lupine
+	model anthro_head_vulpine
+	model anthro_head_felidae
+	model anthro_head_sciuridae
+	model anthro_head_lapine
+
+	models/md5/chars/anthros/anthro_body models/md5/chars/anthros/anthro_body_silver
+	models/md5/chars/anthros/anthro_mouth models/md5/chars/anthros/anthro_mouth
+	models/md5/chars/anthros/anthro_eye models/md5/chars/anthros/anthro_eye_blue
+}
+
+skin anthros/anthro_head_gray
+{
+	model models/md5/chars/anthros/anthro_head_lupine.md5mesh
+	model models/md5/chars/anthros/anthro_head_vulpine.md5mesh
+	model models/md5/chars/anthros/anthro_head_felidae.md5mesh
+	model models/md5/chars/anthros/anthro_head_sciuridae.md5mesh
+	model models/md5/chars/anthros/anthro_head_lapine.md5mesh
+	model anthro_head_lupine
+	model anthro_head_vulpine
+	model anthro_head_felidae
+	model anthro_head_sciuridae
+	model anthro_head_lapine
+
+	models/md5/chars/anthros/anthro_body models/md5/chars/anthros/anthro_body_gray
+	models/md5/chars/anthros/anthro_mouth models/md5/chars/anthros/anthro_mouth
+	models/md5/chars/anthros/anthro_eye models/md5/chars/anthros/anthro_eye_green
+}
+
+skin anthros/anthro_head_black
+{
+	model models/md5/chars/anthros/anthro_head_lupine.md5mesh
+	model models/md5/chars/anthros/anthro_head_vulpine.md5mesh
+	model models/md5/chars/anthros/anthro_head_felidae.md5mesh
+	model models/md5/chars/anthros/anthro_head_sciuridae.md5mesh
+	model models/md5/chars/anthros/anthro_head_lapine.md5mesh
+	model anthro_head_lupine
+	model anthro_head_vulpine
+	model anthro_head_felidae
+	model anthro_head_sciuridae
+	model anthro_head_lapine
+
+	models/md5/chars/anthros/anthro_body models/md5/chars/anthros/anthro_body_black
+	models/md5/chars/anthros/anthro_mouth models/md5/chars/anthros/anthro_mouth
+	models/md5/chars/anthros/anthro_eye models/md5/chars/anthros/anthro_eye_red
+}
+
+skin anthros/anthro_tail_yellow
+{
+	model models/md5/chars/anthros/anthro_tail_lupine.lwo
+
+	models/md5/chars/anthros/anthro_body models/md5/chars/anthros/anthro_body_yellow
+}
+
+skin anthros/anthro_tail_orange
+{
+	model models/md5/chars/anthros/anthro_tail_lupine.lwo
+
+	models/md5/chars/anthros/anthro_body models/md5/chars/anthros/anthro_body_orange
+}
+
+skin anthros/anthro_tail_red
+{
+	model models/md5/chars/anthros/anthro_tail_lupine.lwo
+
+	models/md5/chars/anthros/anthro_body models/md5/chars/anthros/anthro_body_red
+}
+
+skin anthros/anthro_tail_white
+{
+	model models/md5/chars/anthros/anthro_tail_lupine.lwo
+
+	models/md5/chars/anthros/anthro_body models/md5/chars/anthros/anthro_body_white
+}
+
+skin anthros/anthro_tail_silver
+{
+	model models/md5/chars/anthros/anthro_tail_lupine.lwo
+
+	models/md5/chars/anthros/anthro_body models/md5/chars/anthros/anthro_body_silver
+}
+
+skin anthros/anthro_tail_gray
+{
+	model models/md5/chars/anthros/anthro_tail_lupine.lwo
+
+	models/md5/chars/anthros/anthro_body models/md5/chars/anthros/anthro_body_gray
+}
+
+skin anthros/anthro_tail_black
+{
+	model models/md5/chars/anthros/anthro_tail_lupine.lwo
+
+	models/md5/chars/anthros/anthro_body models/md5/chars/anthros/anthro_body_black
+}

@@ -1,0 +1,368 @@
+models/md5/chars/anthros/anthro_hair_yellow
+{
+	qer_editorimage	models/md5/chars/anthros/anthro_hair_yellow
+	surftype15
+	description "hair, yellow"
+
+	sort nearest
+	nonsolid
+	twosided
+	noselfshadow
+	noshadows
+
+	{
+		blend diffusemap
+		map models/md5/chars/anthros/anthro_hair_yellow
+		alphatest 0.5
+	}
+	{
+		if ( parm11 > 0 )
+		blend gl_dst_color, gl_one
+		map _white
+		rgb 0.40 * parm11
+	}
+	{
+		if ( parm11 > 0 )
+		blend add
+		map models/md5/chars/anthros/anthro_hair_yellow
+		rgb 0.15 * parm11
+	}
+
+	bumpmap models/md5/chars/anthros/anthro_hair_local
+	specularmap models/md5/chars/anthros/anthro_hair_s
+}
+
+models/md5/chars/anthros/anthro_hair_orange
+{
+	qer_editorimage	models/md5/chars/anthros/anthro_hair_orange
+	surftype15
+	description "hair, orange"
+
+	sort nearest
+	nonsolid
+	twosided
+	noselfshadow
+	noshadows
+
+	{
+		blend diffusemap
+		map models/md5/chars/anthros/anthro_hair_orange
+		alphatest 0.5
+	}
+	{
+		if ( parm11 > 0 )
+		blend gl_dst_color, gl_one
+		map _white
+		rgb 0.40 * parm11
+	}
+	{
+		if ( parm11 > 0 )
+		blend add
+		map models/md5/chars/anthros/anthro_hair_orange
+		rgb 0.15 * parm11
+	}
+
+	bumpmap models/md5/chars/anthros/anthro_hair_local
+	specularmap models/md5/chars/anthros/anthro_hair_s
+}
+
+models/md5/chars/anthros/anthro_hair_red
+{
+	qer_editorimage	models/md5/chars/anthros/anthro_hair_red
+	surftype15
+	description "hair, red"
+
+	sort nearest
+	nonsolid
+	twosided
+	noselfshadow
+	noshadows
+
+	{
+		blend diffusemap
+		map models/md5/chars/anthros/anthro_hair_red
+		alphatest 0.5
+	}
+	{
+		if ( parm11 > 0 )
+		blend gl_dst_color, gl_one
+		map _white
+		rgb 0.40 * parm11
+	}
+	{
+		if ( parm11 > 0 )
+		blend add
+		map models/md5/chars/anthros/anthro_hair_red
+		rgb 0.15 * parm11
+	}
+
+	bumpmap models/md5/chars/anthros/anthro_hair_local
+	specularmap models/md5/chars/anthros/anthro_hair_s
+}
+
+models/md5/chars/anthros/anthro_hair_white
+{
+	qer_editorimage	models/md5/chars/anthros/anthro_hair_white
+	surftype15
+	description "hair, white"
+
+	sort nearest
+	nonsolid
+	twosided
+	noselfshadow
+	noshadows
+
+	{
+		blend diffusemap
+		map models/md5/chars/anthros/anthro_hair_white
+		alphatest 0.5
+	}
+	{
+		if ( parm11 > 0 )
+		blend gl_dst_color, gl_one
+		map _white
+		rgb 0.40 * parm11
+	}
+	{
+		if ( parm11 > 0 )
+		blend add
+		map models/md5/chars/anthros/anthro_hair_white
+		rgb 0.15 * parm11
+	}
+
+	bumpmap models/md5/chars/anthros/anthro_hair_local
+	specularmap models/md5/chars/anthros/anthro_hair_s
+}
+
+models/md5/chars/anthros/anthro_hair_black
+{
+	qer_editorimage	models/md5/chars/anthros/anthro_hair_black
+	surftype15
+	description "hair, black"
+
+	sort nearest
+	nonsolid
+	twosided
+	noselfshadow
+	noshadows
+
+	{
+		blend diffusemap
+		map models/md5/chars/anthros/anthro_hair_black
+		alphatest 0.5
+	}
+	{
+		if ( parm11 > 0 )
+		blend gl_dst_color, gl_one
+		map _white
+		rgb 0.40 * parm11
+	}
+	{
+		if ( parm11 > 0 )
+		blend add
+		map models/md5/chars/anthros/anthro_hair_black
+		rgb 0.15 * parm11
+	}
+
+	bumpmap models/md5/chars/anthros/anthro_hair_local
+	specularmap models/md5/chars/anthros/anthro_hair_s
+}
+
+models/md5/chars/anthros/anthro_eye_red
+{
+	qer_editorimage	models/md5/chars/anthros/anthro_eye_red
+	surftype15
+	description "eye, red"
+	noShadows
+
+	diffusemap models/md5/chars/anthros/anthro_eye_red
+	bumpmap models/md5/chars/anthros/anthro_eye_local
+	specularmap models/md5/chars/anthros/anthro_eye_s
+
+	{
+		forceHighQuality
+		blend add
+		cameraCubeMap env/eye
+		texgen reflect
+	}
+}
+
+models/md5/chars/anthros/anthro_eye_yellow
+{
+	qer_editorimage	models/md5/chars/anthros/anthro_eye_yellow
+	surftype15
+	description "eye, yellow"
+	noShadows
+
+	diffusemap models/md5/chars/anthros/anthro_eye_yellow
+	bumpmap models/md5/chars/anthros/anthro_eye_local
+	specularmap models/md5/chars/anthros/anthro_eye_s
+
+	{
+		forceHighQuality
+		blend add
+		cameraCubeMap env/eye
+		texgen reflect
+	}
+}
+
+models/md5/chars/anthros/anthro_eye_green
+{
+	qer_editorimage	models/md5/chars/anthros/anthro_eye_green
+	surftype15
+	description "eye, green"
+	noShadows
+
+	diffusemap models/md5/chars/anthros/anthro_eye_green
+	bumpmap models/md5/chars/anthros/anthro_eye_local
+	specularmap models/md5/chars/anthros/anthro_eye_s
+
+	{
+		forceHighQuality
+		blend add
+		cameraCubeMap env/eye
+		texgen reflect
+	}
+}
+
+models/md5/chars/anthros/anthro_eye_blue
+{
+	qer_editorimage	models/md5/chars/anthros/anthro_eye_blue
+	surftype15
+	description "eye, blue"
+	noShadows
+
+	diffusemap models/md5/chars/anthros/anthro_eye_blue
+	bumpmap models/md5/chars/anthros/anthro_eye_local
+	specularmap models/md5/chars/anthros/anthro_eye_s
+
+	{
+		forceHighQuality
+		blend add
+		cameraCubeMap env/eye
+		texgen reflect
+	}
+}
+
+models/md5/chars/anthros/anthro_eye_magenta
+{
+	qer_editorimage	models/md5/chars/anthros/anthro_eye_magenta
+	surftype15
+	description "eye, magenta"
+	noShadows
+
+	diffusemap models/md5/chars/anthros/anthro_eye_magenta
+	bumpmap models/md5/chars/anthros/anthro_eye_local
+	specularmap models/md5/chars/anthros/anthro_eye_s
+
+	{
+		forceHighQuality
+		blend add
+		cameraCubeMap env/eye
+		texgen reflect
+	}
+}
+
+models/md5/chars/anthros/anthro_mouth
+{
+	qer_editorimage	models/md5/chars/anthros/anthro_mouth
+	surftype15
+	description "mouth"
+	flesh
+	noShadows
+
+	diffusemap models/md5/chars/anthros/anthro_mouth
+	bumpmap models/md5/chars/anthros/anthro_mouth_local
+	specularmap models/md5/chars/anthros/anthro_mouth_s
+}
+
+models/md5/chars/anthros/anthro_body_yellow
+{
+	qer_editorimage	models/md5/chars/anthros/anthro_body_yellow
+	surftype15
+	description "body, yellow"
+	flesh
+	noShadows
+
+	diffusemap models/md5/chars/anthros/anthro_body_yellow
+	bumpmap models/md5/chars/anthros/anthro_body_local
+	specularmap models/md5/chars/anthros/anthro_body_s
+}
+
+models/md5/chars/anthros/anthro_body_orange
+{
+	qer_editorimage	models/md5/chars/anthros/anthro_body_orange
+	surftype15
+	description "body, orange"
+	flesh
+	noShadows
+
+	diffusemap models/md5/chars/anthros/anthro_body_orange
+	bumpmap models/md5/chars/anthros/anthro_body_local
+	specularmap models/md5/chars/anthros/anthro_body_s
+}
+
+models/md5/chars/anthros/anthro_body_red
+{
+	qer_editorimage	models/md5/chars/anthros/anthro_body_red
+	surftype15
+	description "body, red"
+	flesh
+	noShadows
+
+	diffusemap models/md5/chars/anthros/anthro_body_red
+	bumpmap models/md5/chars/anthros/anthro_body_local
+	specularmap models/md5/chars/anthros/anthro_body_s
+}
+
+models/md5/chars/anthros/anthro_body_white
+{
+	qer_editorimage	models/md5/chars/anthros/anthro_body_white
+	surftype15
+	description "body, white"
+	flesh
+	noShadows
+
+	diffusemap models/md5/chars/anthros/anthro_body_white
+	bumpmap models/md5/chars/anthros/anthro_body_local
+	specularmap models/md5/chars/anthros/anthro_body_s
+}
+
+models/md5/chars/anthros/anthro_body_silver
+{
+	qer_editorimage	models/md5/chars/anthros/anthro_body_silver
+	surftype15
+	description "body, silver"
+	flesh
+	noShadows
+
+	diffusemap models/md5/chars/anthros/anthro_body_silver
+	bumpmap models/md5/chars/anthros/anthro_body_local
+	specularmap models/md5/chars/anthros/anthro_body_s
+}
+
+models/md5/chars/anthros/anthro_body_gray
+{
+	qer_editorimage	models/md5/chars/anthros/anthro_body_gray
+	surftype15
+	description "body, gray"
+	flesh
+	noShadows
+
+	diffusemap models/md5/chars/anthros/anthro_body_gray
+	bumpmap models/md5/chars/anthros/anthro_body_local
+	specularmap models/md5/chars/anthros/anthro_body_s
+}
+
+models/md5/chars/anthros/anthro_body_black
+{
+	qer_editorimage	models/md5/chars/anthros/anthro_body_black
+	surftype15
+	description "body, black"
+	flesh
+	noShadows
+
+	diffusemap models/md5/chars/anthros/anthro_body_black
+	bumpmap models/md5/chars/anthros/anthro_body_local
+	specularmap models/md5/chars/anthros/anthro_body_s
+}

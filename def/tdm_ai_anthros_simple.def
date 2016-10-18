@@ -1,0 +1,2039 @@
+// lupine male silver
+
+entityDef atdm:ai_anthro_lupine_male_silver
+{
+	"inherit"						"atdm:ai_humanoid_newskel"
+	"editor_displayFolder"			"AI/Anthros/Simple"
+	"editor_usage"					"Anthro lupine male, silver."
+
+	"AIUse"							"AIUSE_PERSON"
+	"personType"					"PERSONTYPE_GENERIC"
+	"personGender"					"PERSONGENDER_MALE"
+
+	"is_civilian"					"1"
+	"canLightTorches"				"0"
+
+	"ragdoll"						"guard_base_newskel"
+	"model"							"anthro_body_male"
+	"skin"         					"anthros/anthro_body_silver"
+	"def_head"						"atdm:ai_anthro_head_lupine_male_silver"
+	"offsetHeadModel"				"1.0 0 -2.8"
+
+	"rank"							"2"
+	"team"							"3"
+
+	"health"						"90"
+	"mass"							"110"
+
+	// can be KO'd from front when alert
+	"ko_angle_alert_horiz"			"360"
+	"ko_angle_alert_vert"			"360"
+	"ko_alert_immune"				"0"
+
+	"def_attach1"					"atdm:ai_anthro_tail_lupine_silver"
+	"name_attach1"					"tail"
+	"pos_attach1"					"Hips"
+
+	"def_melee_set"					"atdm:ai_melee_set_novice"
+	"def_vocal_set"					"atdm:ai_vocal_set_thug_civilian_01"
+
+	// paw footsteps
+	"snd_footstep"					"bare_footstep"
+	"snd_footstep_wood"				"bare_footstep"
+	"snd_footstep_tile"				"bare_footstep"
+	"snd_footstep_stone"			"bare_footstep"
+	"snd_footstep_metal"			"bare_footstep"
+	"snd_rustle"					"nosound"
+
+	"hide_distance"					"-1" // never
+	"dist_check_period"				"0.7"
+}
+
+entityDef atdm:env_ragdoll_anthro_lupine_male_silver
+{
+	"inherit"						"atdm:env_ragdoll_anthro_humanoid_base_newskel"
+	"editor_usage"					"Ragdoll for anthro lupine male, silver."
+	"AIUse"							"AIUSE_PERSON"
+	"personType"					"PERSONTYPE_GENERIC"
+	"personGender"					"PERSONGENDER_MALE"
+
+	"model"							"anthro_body_male"
+	"skin"         					"anthros/anthro_body_silver"
+	"def_head"						"atdm:ai_anthro_head_lupine_male_silver"
+
+	"def_attach1"					"atdm:ai_anthro_tail_lupine_silver"
+	"name_attach1"					"tail"
+	"pos_attach1"					"Hips"
+}
+
+// lupine male gray
+
+entityDef atdm:ai_anthro_lupine_male_gray
+{
+	"inherit"						"atdm:ai_humanoid_newskel"
+	"editor_displayFolder"			"AI/Anthros/Simple"
+	"editor_usage"					"Anthro lupine male, gray."
+
+	"AIUse"							"AIUSE_PERSON"
+	"personType"					"PERSONTYPE_GENERIC"
+	"personGender"					"PERSONGENDER_MALE"
+
+	"is_civilian"					"1"
+	"canLightTorches"				"0"
+
+	"ragdoll"						"guard_base_newskel"
+	"model"							"anthro_body_male"
+	"skin"         					"anthros/anthro_body_gray"
+	"def_head"						"atdm:ai_anthro_head_lupine_male_gray"
+	"offsetHeadModel"				"1.0 0 -2.8"
+
+	"rank"							"2"
+	"team"							"3"
+
+	"health"						"90"
+	"mass"							"110"
+
+	// can be KO'd from front when alert
+	"ko_angle_alert_horiz"			"360"
+	"ko_angle_alert_vert"			"360"
+	"ko_alert_immune"				"0"
+
+	"def_attach1"					"atdm:ai_anthro_tail_lupine_gray"
+	"name_attach1"					"tail"
+	"pos_attach1"					"Hips"
+
+	"def_melee_set"					"atdm:ai_melee_set_novice"
+	"def_vocal_set"					"atdm:ai_vocal_set_thug_guard_01"
+
+	// paw footsteps
+	"snd_footstep"					"bare_footstep"
+	"snd_footstep_wood"				"bare_footstep"
+	"snd_footstep_tile"				"bare_footstep"
+	"snd_footstep_stone"			"bare_footstep"
+	"snd_footstep_metal"			"bare_footstep"
+	"snd_rustle"					"nosound"
+
+	"hide_distance"					"-1" // never
+	"dist_check_period"				"0.7"
+}
+
+entityDef atdm:env_ragdoll_anthro_lupine_male_gray
+{
+	"inherit"						"atdm:env_ragdoll_anthro_humanoid_base_newskel"
+	"editor_usage"					"Ragdoll for anthro lupine male, gray."
+	"AIUse"							"AIUSE_PERSON"
+	"personType"					"PERSONTYPE_GENERIC"
+	"personGender"					"PERSONGENDER_MALE"
+
+	"model"							"anthro_body_male"
+	"skin"         					"anthros/anthro_body_gray"
+	"def_head"						"atdm:ai_anthro_head_lupine_male_gray"
+
+	"def_attach1"					"atdm:ai_anthro_tail_lupine_gray"
+	"name_attach1"					"tail"
+	"pos_attach1"					"Hips"
+}
+
+// lupine male black
+
+entityDef atdm:ai_anthro_lupine_male_black
+{
+	"inherit"						"atdm:ai_humanoid_newskel"
+	"editor_displayFolder"			"AI/Anthros/Simple"
+	"editor_usage"					"Anthro lupine male, black."
+
+	"AIUse"							"AIUSE_PERSON"
+	"personType"					"PERSONTYPE_GENERIC"
+	"personGender"					"PERSONGENDER_MALE"
+
+	"is_civilian"					"1"
+	"canLightTorches"				"0"
+
+	"ragdoll"						"guard_base_newskel"
+	"model"							"anthro_body_male"
+	"skin"         					"anthros/anthro_body_black"
+	"def_head"						"atdm:ai_anthro_head_lupine_male_black"
+	"offsetHeadModel"				"1.0 0 -2.8"
+
+	"rank"							"2"
+	"team"							"3"
+
+	"health"						"90"
+	"mass"							"110"
+
+	// can be KO'd from front when alert
+	"ko_angle_alert_horiz"			"360"
+	"ko_angle_alert_vert"			"360"
+	"ko_alert_immune"				"0"
+
+	"def_attach1"					"atdm:ai_anthro_tail_lupine_black"
+	"name_attach1"					"tail"
+	"pos_attach1"					"Hips"
+
+	"def_melee_set"					"atdm:ai_melee_set_novice"
+	"def_vocal_set"					"atdm:ai_vocal_set_thug_guard_01"
+
+	// paw footsteps
+	"snd_footstep"					"bare_footstep"
+	"snd_footstep_wood"				"bare_footstep"
+	"snd_footstep_tile"				"bare_footstep"
+	"snd_footstep_stone"			"bare_footstep"
+	"snd_footstep_metal"			"bare_footstep"
+	"snd_rustle"					"nosound"
+
+	"hide_distance"					"-1" // never
+	"dist_check_period"				"0.7"
+}
+
+entityDef atdm:env_ragdoll_anthro_lupine_male_black
+{
+	"inherit"						"atdm:env_ragdoll_anthro_humanoid_base_newskel"
+	"editor_usage"					"Ragdoll for anthro lupine male, black."
+	"AIUse"							"AIUSE_PERSON"
+	"personType"					"PERSONTYPE_GENERIC"
+	"personGender"					"PERSONGENDER_MALE"
+
+	"model"							"anthro_body_male"
+	"skin"         					"anthros/anthro_body_black"
+	"def_head"						"atdm:ai_anthro_head_lupine_male_black"
+
+	"def_attach1"					"atdm:ai_anthro_tail_lupine_black"
+	"name_attach1"					"tail"
+	"pos_attach1"					"Hips"
+}
+
+// lupine female silver
+
+entityDef atdm:ai_anthro_lupine_female_silver
+{
+	"inherit"						"atdm:ai_humanoid_newskel"
+	"editor_displayFolder"			"AI/Anthros/Simple"
+	"editor_usage"					"Anthro lupine female, silver."
+
+	"AIUse"							"AIUSE_PERSON"
+	"personType"					"PERSONTYPE_GENERIC"
+	"personGender"					"PERSONGENDER_FEMALE"
+
+	"is_civilian"					"1"
+	"canLightTorches"				"0"
+
+	"ragdoll"						"guard_base_newskel"
+	"model"							"anthro_body_female"
+	"skin"         					"anthros/anthro_body_silver"
+	"def_head"						"atdm:ai_anthro_head_lupine_female_silver"
+	"offsetHeadModel"				"1.0 0 -2.8"
+
+	"rank"							"2"
+	"team"							"3"
+
+	"health"						"80"
+	"mass"							"100"
+
+	// can be KO'd from front when alert
+	"ko_angle_alert_horiz"			"360"
+	"ko_angle_alert_vert"			"360"
+	"ko_alert_immune"				"0"
+
+	"def_attach1"					"atdm:ai_anthro_tail_lupine_silver"
+	"name_attach1"					"tail"
+	"pos_attach1"					"Hips"
+
+	"def_melee_set"					"atdm:ai_melee_set_novice"
+	"def_vocal_set"					"atdm:ai_vocal_set_wench_whore_01"
+
+	// paw footsteps
+	"snd_footstep"					"bare_footstep"
+	"snd_footstep_wood"				"bare_footstep"
+	"snd_footstep_tile"				"bare_footstep"
+	"snd_footstep_stone"			"bare_footstep"
+	"snd_footstep_metal"			"bare_footstep"
+	"snd_rustle"					"nosound"
+
+	"hide_distance"					"-1" // never
+	"dist_check_period"				"0.7"
+}
+
+entityDef atdm:env_ragdoll_anthro_lupine_female_silver
+{
+	"inherit"						"atdm:env_ragdoll_anthro_humanoid_base_newskel"
+	"editor_usage"					"Ragdoll for anthro lupine female, silver."
+	"AIUse"							"AIUSE_PERSON"
+	"personType"					"PERSONTYPE_GENERIC"
+	"personGender"					"PERSONGENDER_FEMALE"
+
+	"model"							"anthro_body_female"
+	"skin"         					"anthros/anthro_body_silver"
+	"def_head"						"atdm:ai_anthro_head_lupine_female_silver"
+
+	"def_attach1"					"atdm:ai_anthro_tail_lupine_silver"
+	"name_attach1"					"tail"
+	"pos_attach1"					"Hips"
+}
+
+// lupine female gray
+
+entityDef atdm:ai_anthro_lupine_female_gray
+{
+	"inherit"						"atdm:ai_humanoid_newskel"
+	"editor_displayFolder"			"AI/Anthros/Simple"
+	"editor_usage"					"Anthro lupine female, gray."
+
+	"AIUse"							"AIUSE_PERSON"
+	"personType"					"PERSONTYPE_GENERIC"
+	"personGender"					"PERSONGENDER_FEMALE"
+
+	"is_civilian"					"1"
+	"canLightTorches"				"0"
+
+	"ragdoll"						"guard_base_newskel"
+	"model"							"anthro_body_female"
+	"skin"         					"anthros/anthro_body_gray"
+	"def_head"						"atdm:ai_anthro_head_lupine_female_gray"
+	"offsetHeadModel"				"1.0 0 -2.8"
+
+	"rank"							"2"
+	"team"							"3"
+
+	"health"						"80"
+	"mass"							"100"
+
+	// can be KO'd from front when alert
+	"ko_angle_alert_horiz"			"360"
+	"ko_angle_alert_vert"			"360"
+	"ko_alert_immune"				"0"
+
+	"def_attach1"					"atdm:ai_anthro_tail_lupine_gray"
+	"name_attach1"					"tail"
+	"pos_attach1"					"Hips"
+
+	"def_melee_set"					"atdm:ai_melee_set_novice"
+	"def_vocal_set"					"atdm:ai_vocal_set_wench_civilian_01"
+
+	// paw footsteps
+	"snd_footstep"					"bare_footstep"
+	"snd_footstep_wood"				"bare_footstep"
+	"snd_footstep_tile"				"bare_footstep"
+	"snd_footstep_stone"			"bare_footstep"
+	"snd_footstep_metal"			"bare_footstep"
+	"snd_rustle"					"nosound"
+
+	"hide_distance"					"-1" // never
+	"dist_check_period"				"0.7"
+}
+
+entityDef atdm:env_ragdoll_anthro_lupine_female_gray
+{
+	"inherit"						"atdm:env_ragdoll_anthro_humanoid_base_newskel"
+	"editor_usage"					"Ragdoll for anthro lupine female, gray."
+	"AIUse"							"AIUSE_PERSON"
+	"personType"					"PERSONTYPE_GENERIC"
+	"personGender"					"PERSONGENDER_FEMALE"
+
+	"model"							"anthro_body_female"
+	"skin"         					"anthros/anthro_body_gray"
+	"def_head"						"atdm:ai_anthro_head_lupine_female_gray"
+
+	"def_attach1"					"atdm:ai_anthro_tail_lupine_gray"
+	"name_attach1"					"tail"
+	"pos_attach1"					"Hips"
+}
+
+// lupine female black
+
+entityDef atdm:ai_anthro_lupine_female_black
+{
+	"inherit"						"atdm:ai_humanoid_newskel"
+	"editor_displayFolder"			"AI/Anthros/Simple"
+	"editor_usage"					"Anthro lupine female, black."
+
+	"AIUse"							"AIUSE_PERSON"
+	"personType"					"PERSONTYPE_GENERIC"
+	"personGender"					"PERSONGENDER_FEMALE"
+
+	"is_civilian"					"1"
+	"canLightTorches"				"0"
+
+	"ragdoll"						"guard_base_newskel"
+	"model"							"anthro_body_female"
+	"skin"         					"anthros/anthro_body_black"
+	"def_head"						"atdm:ai_anthro_head_lupine_female_black"
+	"offsetHeadModel"				"1.0 0 -2.8"
+
+	"rank"							"2"
+	"team"							"3"
+
+	"health"						"80"
+	"mass"							"100"
+
+	// can be KO'd from front when alert
+	"ko_angle_alert_horiz"			"360"
+	"ko_angle_alert_vert"			"360"
+	"ko_alert_immune"				"0"
+
+	"def_attach1"					"atdm:ai_anthro_tail_lupine_black"
+	"name_attach1"					"tail"
+	"pos_attach1"					"Hips"
+
+	"def_melee_set"					"atdm:ai_melee_set_novice"
+	"def_vocal_set"					"atdm:ai_vocal_set_wench_guard_01"
+
+	// paw footsteps
+	"snd_footstep"					"bare_footstep"
+	"snd_footstep_wood"				"bare_footstep"
+	"snd_footstep_tile"				"bare_footstep"
+	"snd_footstep_stone"			"bare_footstep"
+	"snd_footstep_metal"			"bare_footstep"
+	"snd_rustle"					"nosound"
+
+	"hide_distance"					"-1" // never
+	"dist_check_period"				"0.7"
+}
+
+entityDef atdm:env_ragdoll_anthro_lupine_female_black
+{
+	"inherit"						"atdm:env_ragdoll_anthro_humanoid_base_newskel"
+	"editor_usage"					"Ragdoll for anthro lupine female, black."
+	"AIUse"							"AIUSE_PERSON"
+	"personType"					"PERSONTYPE_GENERIC"
+	"personGender"					"PERSONGENDER_FEMALE"
+
+	"model"							"anthro_body_female"
+	"skin"         					"anthros/anthro_body_black"
+	"def_head"						"atdm:ai_anthro_head_lupine_female_black"
+
+	"def_attach1"					"atdm:ai_anthro_tail_lupine_black"
+	"name_attach1"					"tail"
+	"pos_attach1"					"Hips"
+}
+
+// vulpine male red
+
+entityDef atdm:ai_anthro_vulpine_male_red
+{
+	"inherit"						"atdm:ai_humanoid_newskel"
+	"editor_displayFolder"			"AI/Anthros/Simple"
+	"editor_usage"					"Anthro vulpine male, red."
+
+	"AIUse"							"AIUSE_PERSON"
+	"personType"					"PERSONTYPE_GENERIC"
+	"personGender"					"PERSONGENDER_MALE"
+
+	"is_civilian"					"1"
+	"canLightTorches"				"0"
+
+	"ragdoll"						"guard_base_newskel"
+	"model"							"anthro_body_male"
+	"skin"         					"anthros/anthro_body_red"
+	"def_head"						"atdm:ai_anthro_head_vulpine_male_red"
+	"offsetHeadModel"				"1.0 0 -2.8"
+
+	"rank"							"3"
+	"team"							"3"
+
+	"health"						"90"
+	"mass"							"95"
+
+	// can be KO'd from front when alert
+	"ko_angle_alert_horiz"			"360"
+	"ko_angle_alert_vert"			"360"
+	"ko_alert_immune"				"0"
+
+	"def_attach1"					"atdm:ai_anthro_tail_vulpine_red"
+	"name_attach1"					"tail"
+	"pos_attach1"					"Hips"
+
+	"def_melee_set"					"atdm:ai_melee_set_novice"
+	"def_vocal_set"					"atdm:ai_vocal_set_builder_02"
+
+	// paw footsteps
+	"snd_footstep"					"bare_footstep"
+	"snd_footstep_wood"				"bare_footstep"
+	"snd_footstep_tile"				"bare_footstep"
+	"snd_footstep_stone"			"bare_footstep"
+	"snd_footstep_metal"			"bare_footstep"
+	"snd_rustle"					"nosound"
+
+	"hide_distance"					"-1" // never
+	"dist_check_period"				"0.7"
+}
+
+entityDef atdm:env_ragdoll_anthro_vulpine_male_red
+{
+	"inherit"						"atdm:env_ragdoll_anthro_humanoid_base_newskel"
+	"editor_usage"					"Ragdoll for anthro vulpine male, red."
+	"AIUse"							"AIUSE_PERSON"
+	"personType"					"PERSONTYPE_GENERIC"
+	"personGender"					"PERSONGENDER_MALE"
+
+	"model"							"anthro_body_male"
+	"skin"         					"anthros/anthro_body_red"
+	"def_head"						"atdm:ai_anthro_head_vulpine_male_red"
+
+	"def_attach1"					"atdm:ai_anthro_tail_vulpine_red"
+	"name_attach1"					"tail"
+	"pos_attach1"					"Hips"
+}
+
+// vulpine male silver
+
+entityDef atdm:ai_anthro_vulpine_male_silver
+{
+	"inherit"						"atdm:ai_humanoid_newskel"
+	"editor_displayFolder"			"AI/Anthros/Simple"
+	"editor_usage"					"Anthro vulpine male, silver."
+
+	"AIUse"							"AIUSE_PERSON"
+	"personType"					"PERSONTYPE_GENERIC"
+	"personGender"					"PERSONGENDER_MALE"
+
+	"is_civilian"					"1"
+	"canLightTorches"				"0"
+
+	"ragdoll"						"guard_base_newskel"
+	"model"							"anthro_body_male"
+	"skin"         					"anthros/anthro_body_silver"
+	"def_head"						"atdm:ai_anthro_head_vulpine_male_silver"
+	"offsetHeadModel"				"1.0 0 -2.8"
+
+	"rank"							"3"
+	"team"							"3"
+
+	"health"						"90"
+	"mass"							"95"
+
+	// can be KO'd from front when alert
+	"ko_angle_alert_horiz"			"360"
+	"ko_angle_alert_vert"			"360"
+	"ko_alert_immune"				"0"
+
+	"def_attach1"					"atdm:ai_anthro_tail_vulpine_silver"
+	"name_attach1"					"tail"
+	"pos_attach1"					"Hips"
+
+	"def_melee_set"					"atdm:ai_melee_set_novice"
+	"def_vocal_set"					"atdm:ai_vocal_set_builder_02_priest_civilian"
+
+	// paw footsteps
+	"snd_footstep"					"bare_footstep"
+	"snd_footstep_wood"				"bare_footstep"
+	"snd_footstep_tile"				"bare_footstep"
+	"snd_footstep_stone"			"bare_footstep"
+	"snd_footstep_metal"			"bare_footstep"
+	"snd_rustle"					"nosound"
+
+	"hide_distance"					"-1" // never
+	"dist_check_period"				"0.7"
+}
+
+entityDef atdm:env_ragdoll_anthro_vulpine_male_silver
+{
+	"inherit"						"atdm:env_ragdoll_anthro_humanoid_base_newskel"
+	"editor_usage"					"Ragdoll for anthro vulpine male, silver."
+	"AIUse"							"AIUSE_PERSON"
+	"personType"					"PERSONTYPE_GENERIC"
+	"personGender"					"PERSONGENDER_MALE"
+
+	"model"							"anthro_body_male"
+	"skin"         					"anthros/anthro_body_silver"
+	"def_head"						"atdm:ai_anthro_head_vulpine_male_silver"
+
+	"def_attach1"					"atdm:ai_anthro_tail_vulpine_silver"
+	"name_attach1"					"tail"
+	"pos_attach1"					"Hips"
+}
+
+// vulpine male black
+
+entityDef atdm:ai_anthro_vulpine_male_black
+{
+	"inherit"						"atdm:ai_humanoid_newskel"
+	"editor_displayFolder"			"AI/Anthros/Simple"
+	"editor_usage"					"Anthro vulpine male, black."
+
+	"AIUse"							"AIUSE_PERSON"
+	"personType"					"PERSONTYPE_GENERIC"
+	"personGender"					"PERSONGENDER_MALE"
+
+	"is_civilian"					"1"
+	"canLightTorches"				"0"
+
+	"ragdoll"						"guard_base_newskel"
+	"model"							"anthro_body_male"
+	"skin"         					"anthros/anthro_body_black"
+	"def_head"						"atdm:ai_anthro_head_vulpine_male_black"
+	"offsetHeadModel"				"1.0 0 -2.8"
+
+	"rank"							"3"
+	"team"							"3"
+
+	"health"						"90"
+	"mass"							"95"
+
+	// can be KO'd from front when alert
+	"ko_angle_alert_horiz"			"360"
+	"ko_angle_alert_vert"			"360"
+	"ko_alert_immune"				"0"
+
+	"def_attach1"					"atdm:ai_anthro_tail_vulpine_black"
+	"name_attach1"					"tail"
+	"pos_attach1"					"Hips"
+
+	"def_melee_set"					"atdm:ai_melee_set_novice"
+	"def_vocal_set"					"atdm:ai_vocal_set_builder_02_priest_armed"
+
+	// paw footsteps
+	"snd_footstep"					"bare_footstep"
+	"snd_footstep_wood"				"bare_footstep"
+	"snd_footstep_tile"				"bare_footstep"
+	"snd_footstep_stone"			"bare_footstep"
+	"snd_footstep_metal"			"bare_footstep"
+	"snd_rustle"					"nosound"
+
+	"hide_distance"					"-1" // never
+	"dist_check_period"				"0.7"
+}
+
+entityDef atdm:env_ragdoll_anthro_vulpine_male_black
+{
+	"inherit"						"atdm:env_ragdoll_anthro_humanoid_base_newskel"
+	"editor_usage"					"Ragdoll for anthro vulpine male, black."
+	"AIUse"							"AIUSE_PERSON"
+	"personType"					"PERSONTYPE_GENERIC"
+	"personGender"					"PERSONGENDER_MALE"
+
+	"model"							"anthro_body_male"
+	"skin"         					"anthros/anthro_body_black"
+	"def_head"						"atdm:ai_anthro_head_vulpine_male_black"
+
+	"def_attach1"					"atdm:ai_anthro_tail_vulpine_black"
+	"name_attach1"					"tail"
+	"pos_attach1"					"Hips"
+}
+
+// vulpine female red
+
+entityDef atdm:ai_anthro_vulpine_female_red
+{
+	"inherit"						"atdm:ai_humanoid_newskel"
+	"editor_displayFolder"			"AI/Anthros/Simple"
+	"editor_usage"					"Anthro vulpine female, red."
+
+	"AIUse"							"AIUSE_PERSON"
+	"personType"					"PERSONTYPE_GENERIC"
+	"personGender"					"PERSONGENDER_FEMALE"
+
+	"is_civilian"					"1"
+	"canLightTorches"				"0"
+
+	"ragdoll"						"guard_base_newskel"
+	"model"							"anthro_body_female"
+	"skin"         					"anthros/anthro_body_red"
+	"def_head"						"atdm:ai_anthro_head_vulpine_female_red"
+	"offsetHeadModel"				"1.0 0 -2.8"
+
+	"rank"							"3"
+	"team"							"3"
+
+	"health"						"80"
+	"mass"							"90"
+
+	// can be KO'd from front when alert
+	"ko_angle_alert_horiz"			"360"
+	"ko_angle_alert_vert"			"360"
+	"ko_alert_immune"				"0"
+
+	"def_attach1"					"atdm:ai_anthro_tail_vulpine_red"
+	"name_attach1"					"tail"
+	"pos_attach1"					"Hips"
+
+	"def_melee_set"					"atdm:ai_melee_set_novice"
+	"def_vocal_set"					"atdm:ai_vocal_set_maiden_mage"
+
+	// paw footsteps
+	"snd_footstep"					"bare_footstep"
+	"snd_footstep_wood"				"bare_footstep"
+	"snd_footstep_tile"				"bare_footstep"
+	"snd_footstep_stone"			"bare_footstep"
+	"snd_footstep_metal"			"bare_footstep"
+	"snd_rustle"					"nosound"
+
+	"hide_distance"					"-1" // never
+	"dist_check_period"				"0.7"
+}
+
+entityDef atdm:env_ragdoll_anthro_vulpine_female_red
+{
+	"inherit"						"atdm:env_ragdoll_anthro_humanoid_base_newskel"
+	"editor_usage"					"Ragdoll for anthro vulpine female, red."
+	"AIUse"							"AIUSE_PERSON"
+	"personType"					"PERSONTYPE_GENERIC"
+	"personGender"					"PERSONGENDER_FEMALE"
+
+	"model"							"anthro_body_female"
+	"skin"         					"anthros/anthro_body_red"
+	"def_head"						"atdm:ai_anthro_head_vulpine_female_red"
+
+	"def_attach1"					"atdm:ai_anthro_tail_vulpine_red"
+	"name_attach1"					"tail"
+	"pos_attach1"					"Hips"
+}
+
+// vulpine female silver
+
+entityDef atdm:ai_anthro_vulpine_female_silver
+{
+	"inherit"						"atdm:ai_humanoid_newskel"
+	"editor_displayFolder"			"AI/Anthros/Simple"
+	"editor_usage"					"Anthro vulpine female, silver."
+
+	"AIUse"							"AIUSE_PERSON"
+	"personType"					"PERSONTYPE_GENERIC"
+	"personGender"					"PERSONGENDER_FEMALE"
+
+	"is_civilian"					"1"
+	"canLightTorches"				"0"
+
+	"ragdoll"						"guard_base_newskel"
+	"model"							"anthro_body_female"
+	"skin"         					"anthros/anthro_body_silver"
+	"def_head"						"atdm:ai_anthro_head_vulpine_female_silver"
+	"offsetHeadModel"				"1.0 0 -2.8"
+
+	"rank"							"3"
+	"team"							"3"
+
+	"health"						"80"
+	"mass"							"90"
+
+	// can be KO'd from front when alert
+	"ko_angle_alert_horiz"			"360"
+	"ko_angle_alert_vert"			"360"
+	"ko_alert_immune"				"0"
+
+	"def_attach1"					"atdm:ai_anthro_tail_vulpine_silver"
+	"name_attach1"					"tail"
+	"pos_attach1"					"Hips"
+
+	"def_melee_set"					"atdm:ai_melee_set_novice"
+	"def_vocal_set"					"atdm:ai_vocal_set_maiden_unarmed_01"
+
+	// paw footsteps
+	"snd_footstep"					"bare_footstep"
+	"snd_footstep_wood"				"bare_footstep"
+	"snd_footstep_tile"				"bare_footstep"
+	"snd_footstep_stone"			"bare_footstep"
+	"snd_footstep_metal"			"bare_footstep"
+	"snd_rustle"					"nosound"
+
+	"hide_distance"					"-1" // never
+	"dist_check_period"				"0.7"
+}
+
+entityDef atdm:env_ragdoll_anthro_vulpine_female_silver
+{
+	"inherit"						"atdm:env_ragdoll_anthro_humanoid_base_newskel"
+	"editor_usage"					"Ragdoll for anthro vulpine female, silver."
+	"AIUse"							"AIUSE_PERSON"
+	"personType"					"PERSONTYPE_GENERIC"
+	"personGender"					"PERSONGENDER_FEMALE"
+
+	"model"							"anthro_body_female"
+	"skin"         					"anthros/anthro_body_silver"
+	"def_head"						"atdm:ai_anthro_head_vulpine_female_silver"
+
+	"def_attach1"					"atdm:ai_anthro_tail_vulpine_silver"
+	"name_attach1"					"tail"
+	"pos_attach1"					"Hips"
+}
+
+// vulpine female black
+
+entityDef atdm:ai_anthro_vulpine_female_black
+{
+	"inherit"						"atdm:ai_humanoid_newskel"
+	"editor_displayFolder"			"AI/Anthros/Simple"
+	"editor_usage"					"Anthro vulpine female, black."
+
+	"AIUse"							"AIUSE_PERSON"
+	"personType"					"PERSONTYPE_GENERIC"
+	"personGender"					"PERSONGENDER_FEMALE"
+
+	"is_civilian"					"1"
+	"canLightTorches"				"0"
+
+	"ragdoll"						"guard_base_newskel"
+	"model"							"anthro_body_female"
+	"skin"         					"anthros/anthro_body_black"
+	"def_head"						"atdm:ai_anthro_head_vulpine_female_black"
+	"offsetHeadModel"				"1.0 0 -2.8"
+
+	"rank"							"3"
+	"team"							"3"
+
+	"health"						"80"
+	"mass"							"90"
+
+	// can be KO'd from front when alert
+	"ko_angle_alert_horiz"			"360"
+	"ko_angle_alert_vert"			"360"
+	"ko_alert_immune"				"0"
+
+	"def_attach1"					"atdm:ai_anthro_tail_vulpine_black"
+	"name_attach1"					"tail"
+	"pos_attach1"					"Hips"
+
+	"def_melee_set"					"atdm:ai_melee_set_novice"
+	"def_vocal_set"					"atdm:ai_vocal_set_maiden_armed_01"
+
+	// paw footsteps
+	"snd_footstep"					"bare_footstep"
+	"snd_footstep_wood"				"bare_footstep"
+	"snd_footstep_tile"				"bare_footstep"
+	"snd_footstep_stone"			"bare_footstep"
+	"snd_footstep_metal"			"bare_footstep"
+	"snd_rustle"					"nosound"
+
+	"hide_distance"					"-1" // never
+	"dist_check_period"				"0.7"
+}
+
+entityDef atdm:env_ragdoll_anthro_vulpine_female_black
+{
+	"inherit"						"atdm:env_ragdoll_anthro_humanoid_base_newskel"
+	"editor_usage"					"Ragdoll for anthro vulpine female, black."
+	"AIUse"							"AIUSE_PERSON"
+	"personType"					"PERSONTYPE_GENERIC"
+	"personGender"					"PERSONGENDER_FEMALE"
+
+	"model"							"anthro_body_female"
+	"skin"         					"anthros/anthro_body_black"
+	"def_head"						"atdm:ai_anthro_head_vulpine_female_black"
+
+	"def_attach1"					"atdm:ai_anthro_tail_vulpine_black"
+	"name_attach1"					"tail"
+	"pos_attach1"					"Hips"
+}
+
+// felidae male yellow
+
+entityDef atdm:ai_anthro_felidae_male_yellow
+{
+	"inherit"						"atdm:ai_humanoid_newskel"
+	"editor_displayFolder"			"AI/Anthros/Simple"
+	"editor_usage"					"Anthro felidae male, yellow."
+
+	"AIUse"							"AIUSE_PERSON"
+	"personType"					"PERSONTYPE_GENERIC"
+	"personGender"					"PERSONGENDER_MALE"
+
+	"is_civilian"					"1"
+	"canLightTorches"				"0"
+
+	"ragdoll"						"guard_base_newskel"
+	"model"							"anthro_body_male"
+	"skin"         					"anthros/anthro_body_yellow"
+	"def_head"						"atdm:ai_anthro_head_felidae_male_yellow"
+	"offsetHeadModel"				"1.0 0 -2.8"
+
+	"rank"							"2"
+	"team"							"3"
+
+	"health"						"90"
+	"mass"							"100"
+
+	// can be KO'd from front when alert
+	"ko_angle_alert_horiz"			"360"
+	"ko_angle_alert_vert"			"360"
+	"ko_alert_immune"				"0"
+
+	"def_attach1"					"atdm:ai_anthro_tail_felidae_yellow"
+	"name_attach1"					"tail"
+	"pos_attach1"					"Hips"
+
+	"def_melee_set"					"atdm:ai_melee_set_novice"
+	"def_vocal_set"					"atdm:ai_vocal_set_critic_mage_01"
+
+	// paw footsteps
+	"snd_footstep"					"bare_footstep"
+	"snd_footstep_wood"				"bare_footstep"
+	"snd_footstep_tile"				"bare_footstep"
+	"snd_footstep_stone"			"bare_footstep"
+	"snd_footstep_metal"			"bare_footstep"
+	"snd_rustle"					"nosound"
+
+	"hide_distance"					"-1" // never
+	"dist_check_period"				"0.7"
+}
+
+entityDef atdm:env_ragdoll_anthro_felidae_male_yellow
+{
+	"inherit"						"atdm:env_ragdoll_anthro_humanoid_base_newskel"
+	"editor_usage"					"Ragdoll for anthro felidae male, yellow."
+	"AIUse"							"AIUSE_PERSON"
+	"personType"					"PERSONTYPE_GENERIC"
+	"personGender"					"PERSONGENDER_MALE"
+
+	"model"							"anthro_body_male"
+	"skin"         					"anthros/anthro_body_yellow"
+	"def_head"						"atdm:ai_anthro_head_felidae_male_yellow"
+
+	"def_attach1"					"atdm:ai_anthro_tail_felidae_yellow"
+	"name_attach1"					"tail"
+	"pos_attach1"					"Hips"
+}
+
+// felidae male white
+
+entityDef atdm:ai_anthro_felidae_male_white
+{
+	"inherit"						"atdm:ai_humanoid_newskel"
+	"editor_displayFolder"			"AI/Anthros/Simple"
+	"editor_usage"					"Anthro felidae male, white."
+
+	"AIUse"							"AIUSE_PERSON"
+	"personType"					"PERSONTYPE_GENERIC"
+	"personGender"					"PERSONGENDER_MALE"
+
+	"is_civilian"					"1"
+	"canLightTorches"				"0"
+
+	"ragdoll"						"guard_base_newskel"
+	"model"							"anthro_body_male"
+	"skin"         					"anthros/anthro_body_white"
+	"def_head"						"atdm:ai_anthro_head_felidae_male_white"
+	"offsetHeadModel"				"1.0 0 -2.8"
+
+	"rank"							"2"
+	"team"							"3"
+
+	"health"						"90"
+	"mass"							"100"
+
+	// can be KO'd from front when alert
+	"ko_angle_alert_horiz"			"360"
+	"ko_angle_alert_vert"			"360"
+	"ko_alert_immune"				"0"
+
+	"def_attach1"					"atdm:ai_anthro_tail_felidae_white"
+	"name_attach1"					"tail"
+	"pos_attach1"					"Hips"
+
+	"def_melee_set"					"atdm:ai_melee_set_novice"
+	"def_vocal_set"					"atdm:ai_vocal_set_critic_unarmed_01"
+
+	// paw footsteps
+	"snd_footstep"					"bare_footstep"
+	"snd_footstep_wood"				"bare_footstep"
+	"snd_footstep_tile"				"bare_footstep"
+	"snd_footstep_stone"			"bare_footstep"
+	"snd_footstep_metal"			"bare_footstep"
+	"snd_rustle"					"nosound"
+
+	"hide_distance"					"-1" // never
+	"dist_check_period"				"0.7"
+}
+
+entityDef atdm:env_ragdoll_anthro_felidae_male_white
+{
+	"inherit"						"atdm:env_ragdoll_anthro_humanoid_base_newskel"
+	"editor_usage"					"Ragdoll for anthro felidae male, white."
+	"AIUse"							"AIUSE_PERSON"
+	"personType"					"PERSONTYPE_GENERIC"
+	"personGender"					"PERSONGENDER_MALE"
+
+	"model"							"anthro_body_male"
+	"skin"         					"anthros/anthro_body_white"
+	"def_head"						"atdm:ai_anthro_head_felidae_male_white"
+
+	"def_attach1"					"atdm:ai_anthro_tail_felidae_white"
+	"name_attach1"					"tail"
+	"pos_attach1"					"Hips"
+}
+
+// felidae male black
+
+entityDef atdm:ai_anthro_felidae_male_black
+{
+	"inherit"						"atdm:ai_humanoid_newskel"
+	"editor_displayFolder"			"AI/Anthros/Simple"
+	"editor_usage"					"Anthro felidae male, black."
+
+	"AIUse"							"AIUSE_PERSON"
+	"personType"					"PERSONTYPE_GENERIC"
+	"personGender"					"PERSONGENDER_MALE"
+
+	"is_civilian"					"1"
+	"canLightTorches"				"0"
+
+	"ragdoll"						"guard_base_newskel"
+	"model"							"anthro_body_male"
+	"skin"         					"anthros/anthro_body_black"
+	"def_head"						"atdm:ai_anthro_head_felidae_male_black"
+	"offsetHeadModel"				"1.0 0 -2.8"
+
+	"rank"							"2"
+	"team"							"3"
+
+	"health"						"90"
+	"mass"							"100"
+
+	// can be KO'd from front when alert
+	"ko_angle_alert_horiz"			"360"
+	"ko_angle_alert_vert"			"360"
+	"ko_alert_immune"				"0"
+
+	"def_attach1"					"atdm:ai_anthro_tail_felidae_black"
+	"name_attach1"					"tail"
+	"pos_attach1"					"Hips"
+
+	"def_melee_set"					"atdm:ai_melee_set_novice"
+	"def_vocal_set"					"atdm:ai_vocal_set_critic_armed_01"
+
+	// paw footsteps
+	"snd_footstep"					"bare_footstep"
+	"snd_footstep_wood"				"bare_footstep"
+	"snd_footstep_tile"				"bare_footstep"
+	"snd_footstep_stone"			"bare_footstep"
+	"snd_footstep_metal"			"bare_footstep"
+	"snd_rustle"					"nosound"
+
+	"hide_distance"					"-1" // never
+	"dist_check_period"				"0.7"
+}
+
+entityDef atdm:env_ragdoll_anthro_felidae_male_black
+{
+	"inherit"						"atdm:env_ragdoll_anthro_humanoid_base_newskel"
+	"editor_usage"					"Ragdoll for anthro felidae male, black."
+	"AIUse"							"AIUSE_PERSON"
+	"personType"					"PERSONTYPE_GENERIC"
+	"personGender"					"PERSONGENDER_MALE"
+
+	"model"							"anthro_body_male"
+	"skin"         					"anthros/anthro_body_black"
+	"def_head"						"atdm:ai_anthro_head_felidae_male_black"
+
+	"def_attach1"					"atdm:ai_anthro_tail_felidae_black"
+	"name_attach1"					"tail"
+	"pos_attach1"					"Hips"
+}
+
+// felidae female yellow
+
+entityDef atdm:ai_anthro_felidae_female_yellow
+{
+	"inherit"						"atdm:ai_humanoid_newskel"
+	"editor_displayFolder"			"AI/Anthros/Simple"
+	"editor_usage"					"Anthro felidae female, yellow."
+
+	"AIUse"							"AIUSE_PERSON"
+	"personType"					"PERSONTYPE_GENERIC"
+	"personGender"					"PERSONGENDER_FEMALE"
+
+	"is_civilian"					"1"
+	"canLightTorches"				"0"
+
+	"ragdoll"						"guard_base_newskel"
+	"model"							"anthro_body_female"
+	"skin"         					"anthros/anthro_body_yellow"
+	"def_head"						"atdm:ai_anthro_head_felidae_female_yellow"
+	"offsetHeadModel"				"1.0 0 -2.8"
+
+	"rank"							"2"
+	"team"							"3"
+
+	"health"						"80"
+	"mass"							"95"
+
+	// can be KO'd from front when alert
+	"ko_angle_alert_horiz"			"360"
+	"ko_angle_alert_vert"			"360"
+	"ko_alert_immune"				"0"
+
+	"def_attach1"					"atdm:ai_anthro_tail_felidae_yellow"
+	"name_attach1"					"tail"
+	"pos_attach1"					"Hips"
+
+	"def_melee_set"					"atdm:ai_melee_set_novice"
+	"def_vocal_set"					"atdm:ai_vocal_set_wench_soft_civilian_01"
+
+	// paw footsteps
+	"snd_footstep"					"bare_footstep"
+	"snd_footstep_wood"				"bare_footstep"
+	"snd_footstep_tile"				"bare_footstep"
+	"snd_footstep_stone"			"bare_footstep"
+	"snd_footstep_metal"			"bare_footstep"
+	"snd_rustle"					"nosound"
+
+	"hide_distance"					"-1" // never
+	"dist_check_period"				"0.7"
+}
+
+entityDef atdm:env_ragdoll_anthro_felidae_female_yellow
+{
+	"inherit"						"atdm:env_ragdoll_anthro_humanoid_base_newskel"
+	"editor_usage"					"Ragdoll for anthro felidae female, yellow."
+	"AIUse"							"AIUSE_PERSON"
+	"personType"					"PERSONTYPE_GENERIC"
+	"personGender"					"PERSONGENDER_FEMALE"
+
+	"model"							"anthro_body_female"
+	"skin"         					"anthros/anthro_body_yellow"
+	"def_head"						"atdm:ai_anthro_head_felidae_female_yellow"
+
+	"def_attach1"					"atdm:ai_anthro_tail_felidae_yellow"
+	"name_attach1"					"tail"
+	"pos_attach1"					"Hips"
+}
+
+// felidae female white
+
+entityDef atdm:ai_anthro_felidae_female_white
+{
+	"inherit"						"atdm:ai_humanoid_newskel"
+	"editor_displayFolder"			"AI/Anthros/Simple"
+	"editor_usage"					"Anthro felidae female, white."
+
+	"AIUse"							"AIUSE_PERSON"
+	"personType"					"PERSONTYPE_GENERIC"
+	"personGender"					"PERSONGENDER_FEMALE"
+
+	"is_civilian"					"1"
+	"canLightTorches"				"0"
+
+	"ragdoll"						"guard_base_newskel"
+	"model"							"anthro_body_female"
+	"skin"         					"anthros/anthro_body_white"
+	"def_head"						"atdm:ai_anthro_head_felidae_female_white"
+	"offsetHeadModel"				"1.0 0 -2.8"
+
+	"rank"							"2"
+	"team"							"3"
+
+	"health"						"80"
+	"mass"							"95"
+
+	// can be KO'd from front when alert
+	"ko_angle_alert_horiz"			"360"
+	"ko_angle_alert_vert"			"360"
+	"ko_alert_immune"				"0"
+
+	"def_attach1"					"atdm:ai_anthro_tail_felidae_white"
+	"name_attach1"					"tail"
+	"pos_attach1"					"Hips"
+
+	"def_melee_set"					"atdm:ai_melee_set_novice"
+	"def_vocal_set"					"atdm:ai_vocal_set_wench_soft_civilian_01"
+
+	// paw footsteps
+	"snd_footstep"					"bare_footstep"
+	"snd_footstep_wood"				"bare_footstep"
+	"snd_footstep_tile"				"bare_footstep"
+	"snd_footstep_stone"			"bare_footstep"
+	"snd_footstep_metal"			"bare_footstep"
+	"snd_rustle"					"nosound"
+
+	"hide_distance"					"-1" // never
+	"dist_check_period"				"0.7"
+}
+
+entityDef atdm:env_ragdoll_anthro_felidae_female_white
+{
+	"inherit"						"atdm:env_ragdoll_anthro_humanoid_base_newskel"
+	"editor_usage"					"Ragdoll for anthro felidae female, white."
+	"AIUse"							"AIUSE_PERSON"
+	"personType"					"PERSONTYPE_GENERIC"
+	"personGender"					"PERSONGENDER_FEMALE"
+
+	"model"							"anthro_body_female"
+	"skin"         					"anthros/anthro_body_white"
+	"def_head"						"atdm:ai_anthro_head_felidae_female_white"
+
+	"def_attach1"					"atdm:ai_anthro_tail_felidae_white"
+	"name_attach1"					"tail"
+	"pos_attach1"					"Hips"
+}
+
+// felidae female black
+
+entityDef atdm:ai_anthro_felidae_female_black
+{
+	"inherit"						"atdm:ai_humanoid_newskel"
+	"editor_displayFolder"			"AI/Anthros/Simple"
+	"editor_usage"					"Anthro felidae female, black."
+
+	"AIUse"							"AIUSE_PERSON"
+	"personType"					"PERSONTYPE_GENERIC"
+	"personGender"					"PERSONGENDER_FEMALE"
+
+	"is_civilian"					"1"
+	"canLightTorches"				"0"
+
+	"ragdoll"						"guard_base_newskel"
+	"model"							"anthro_body_female"
+	"skin"         					"anthros/anthro_body_black"
+	"def_head"						"atdm:ai_anthro_head_felidae_female_black"
+	"offsetHeadModel"				"1.0 0 -2.8"
+
+	"rank"							"2"
+	"team"							"3"
+
+	"health"						"80"
+	"mass"							"95"
+
+	// can be KO'd from front when alert
+	"ko_angle_alert_horiz"			"360"
+	"ko_angle_alert_vert"			"360"
+	"ko_alert_immune"				"0"
+
+	"def_attach1"					"atdm:ai_anthro_tail_felidae_black"
+	"name_attach1"					"tail"
+	"pos_attach1"					"Hips"
+
+	"def_melee_set"					"atdm:ai_melee_set_novice"
+	"def_vocal_set"					"atdm:ai_vocal_set_wench_soft_guard_01"
+
+	// paw footsteps
+	"snd_footstep"					"bare_footstep"
+	"snd_footstep_wood"				"bare_footstep"
+	"snd_footstep_tile"				"bare_footstep"
+	"snd_footstep_stone"			"bare_footstep"
+	"snd_footstep_metal"			"bare_footstep"
+	"snd_rustle"					"nosound"
+
+	"hide_distance"					"-1" // never
+	"dist_check_period"				"0.7"
+}
+
+entityDef atdm:env_ragdoll_anthro_felidae_female_black
+{
+	"inherit"						"atdm:env_ragdoll_anthro_humanoid_base_newskel"
+	"editor_usage"					"Ragdoll for anthro felidae female, black."
+	"AIUse"							"AIUSE_PERSON"
+	"personType"					"PERSONTYPE_GENERIC"
+	"personGender"					"PERSONGENDER_FEMALE"
+
+	"model"							"anthro_body_female"
+	"skin"         					"anthros/anthro_body_black"
+	"def_head"						"atdm:ai_anthro_head_felidae_female_black"
+
+	"def_attach1"					"atdm:ai_anthro_tail_felidae_black"
+	"name_attach1"					"tail"
+	"pos_attach1"					"Hips"
+}
+
+// sciuridae male orange
+
+entityDef atdm:ai_anthro_sciuridae_male_orange
+{
+	"inherit"						"atdm:ai_humanoid_newskel"
+	"editor_displayFolder"			"AI/Anthros/Simple"
+	"editor_usage"					"Anthro sciuridae male, orange."
+
+	"AIUse"							"AIUSE_PERSON"
+	"personType"					"PERSONTYPE_GENERIC"
+	"personGender"					"PERSONGENDER_MALE"
+
+	"is_civilian"					"1"
+	"canLightTorches"				"0"
+
+	"ragdoll"						"guard_base_newskel"
+	"model"							"anthro_body_male"
+	"skin"         					"anthros/anthro_body_orange"
+	"def_head"						"atdm:ai_anthro_head_sciuridae_male_orange"
+	"offsetHeadModel"				"1.0 0 -2.8"
+
+	"rank"							"1"
+	"team"							"3"
+
+	"health"						"90"
+	"mass"							"80"
+
+	// can be KO'd from front when alert
+	"ko_angle_alert_horiz"			"360"
+	"ko_angle_alert_vert"			"360"
+	"ko_alert_immune"				"0"
+
+	"def_attach1"					"atdm:ai_anthro_tail_sciuridae_orange"
+	"name_attach1"					"tail"
+	"pos_attach1"					"Hips"
+
+	"def_melee_set"					"atdm:ai_melee_set_novice"
+	"def_vocal_set"					"atdm:ai_vocal_set_simpleton_civilian_01"
+
+	// paw footsteps
+	"snd_footstep"					"bare_footstep"
+	"snd_footstep_wood"				"bare_footstep"
+	"snd_footstep_tile"				"bare_footstep"
+	"snd_footstep_stone"			"bare_footstep"
+	"snd_footstep_metal"			"bare_footstep"
+	"snd_rustle"					"nosound"
+
+	"hide_distance"					"-1" // never
+	"dist_check_period"				"0.7"
+}
+
+entityDef atdm:env_ragdoll_anthro_sciuridae_male_orange
+{
+	"inherit"						"atdm:env_ragdoll_anthro_humanoid_base_newskel"
+	"editor_usage"					"Ragdoll for anthro sciuridae male, orange."
+	"AIUse"							"AIUSE_PERSON"
+	"personType"					"PERSONTYPE_GENERIC"
+	"personGender"					"PERSONGENDER_MALE"
+
+	"model"							"anthro_body_male"
+	"skin"         					"anthros/anthro_body_orange"
+	"def_head"						"atdm:ai_anthro_head_sciuridae_male_orange"
+
+	"def_attach1"					"atdm:ai_anthro_tail_sciuridae_orange"
+	"name_attach1"					"tail"
+	"pos_attach1"					"Hips"
+}
+
+// sciuridae male silver
+
+entityDef atdm:ai_anthro_sciuridae_male_silver
+{
+	"inherit"						"atdm:ai_humanoid_newskel"
+	"editor_displayFolder"			"AI/Anthros/Simple"
+	"editor_usage"					"Anthro sciuridae male, silver."
+
+	"AIUse"							"AIUSE_PERSON"
+	"personType"					"PERSONTYPE_GENERIC"
+	"personGender"					"PERSONGENDER_MALE"
+
+	"is_civilian"					"1"
+	"canLightTorches"				"0"
+
+	"ragdoll"						"guard_base_newskel"
+	"model"							"anthro_body_male"
+	"skin"         					"anthros/anthro_body_silver"
+	"def_head"						"atdm:ai_anthro_head_sciuridae_male_silver"
+	"offsetHeadModel"				"1.0 0 -2.8"
+
+	"rank"							"1"
+	"team"							"3"
+
+	"health"						"90"
+	"mass"							"80"
+
+	// can be KO'd from front when alert
+	"ko_angle_alert_horiz"			"360"
+	"ko_angle_alert_vert"			"360"
+	"ko_alert_immune"				"0"
+
+	"def_attach1"					"atdm:ai_anthro_tail_sciuridae_silver"
+	"name_attach1"					"tail"
+	"pos_attach1"					"Hips"
+
+	"def_melee_set"					"atdm:ai_melee_set_novice"
+	"def_vocal_set"					"atdm:ai_vocal_set_simpleton_civilian_01"
+
+	// paw footsteps
+	"snd_footstep"					"bare_footstep"
+	"snd_footstep_wood"				"bare_footstep"
+	"snd_footstep_tile"				"bare_footstep"
+	"snd_footstep_stone"			"bare_footstep"
+	"snd_footstep_metal"			"bare_footstep"
+	"snd_rustle"					"nosound"
+
+	"hide_distance"					"-1" // never
+	"dist_check_period"				"0.7"
+}
+
+entityDef atdm:env_ragdoll_anthro_sciuridae_male_silver
+{
+	"inherit"						"atdm:env_ragdoll_anthro_humanoid_base_newskel"
+	"editor_usage"					"Ragdoll for anthro sciuridae male, silver."
+	"AIUse"							"AIUSE_PERSON"
+	"personType"					"PERSONTYPE_GENERIC"
+	"personGender"					"PERSONGENDER_MALE"
+
+	"model"							"anthro_body_male"
+	"skin"         					"anthros/anthro_body_silver"
+	"def_head"						"atdm:ai_anthro_head_sciuridae_male_silver"
+
+	"def_attach1"					"atdm:ai_anthro_tail_sciuridae_silver"
+	"name_attach1"					"tail"
+	"pos_attach1"					"Hips"
+}
+
+// sciuridae male black
+
+entityDef atdm:ai_anthro_sciuridae_male_black
+{
+	"inherit"						"atdm:ai_humanoid_newskel"
+	"editor_displayFolder"			"AI/Anthros/Simple"
+	"editor_usage"					"Anthro sciuridae male, black."
+
+	"AIUse"							"AIUSE_PERSON"
+	"personType"					"PERSONTYPE_GENERIC"
+	"personGender"					"PERSONGENDER_MALE"
+
+	"is_civilian"					"1"
+	"canLightTorches"				"0"
+
+	"ragdoll"						"guard_base_newskel"
+	"model"							"anthro_body_male"
+	"skin"         					"anthros/anthro_body_black"
+	"def_head"						"atdm:ai_anthro_head_sciuridae_male_black"
+	"offsetHeadModel"				"1.0 0 -2.8"
+
+	"rank"							"1"
+	"team"							"3"
+
+	"health"						"90"
+	"mass"							"80"
+
+	// can be KO'd from front when alert
+	"ko_angle_alert_horiz"			"360"
+	"ko_angle_alert_vert"			"360"
+	"ko_alert_immune"				"0"
+
+	"def_attach1"					"atdm:ai_anthro_tail_sciuridae_black"
+	"name_attach1"					"tail"
+	"pos_attach1"					"Hips"
+
+	"def_melee_set"					"atdm:ai_melee_set_novice"
+	"def_vocal_set"					"atdm:ai_vocal_set_simpleton_guard_01"
+
+	// paw footsteps
+	"snd_footstep"					"bare_footstep"
+	"snd_footstep_wood"				"bare_footstep"
+	"snd_footstep_tile"				"bare_footstep"
+	"snd_footstep_stone"			"bare_footstep"
+	"snd_footstep_metal"			"bare_footstep"
+	"snd_rustle"					"nosound"
+
+	"hide_distance"					"-1" // never
+	"dist_check_period"				"0.7"
+}
+
+entityDef atdm:env_ragdoll_anthro_sciuridae_male_black
+{
+	"inherit"						"atdm:env_ragdoll_anthro_humanoid_base_newskel"
+	"editor_usage"					"Ragdoll for anthro sciuridae male, black."
+	"AIUse"							"AIUSE_PERSON"
+	"personType"					"PERSONTYPE_GENERIC"
+	"personGender"					"PERSONGENDER_MALE"
+
+	"model"							"anthro_body_male"
+	"skin"         					"anthros/anthro_body_black"
+	"def_head"						"atdm:ai_anthro_head_sciuridae_male_black"
+
+	"def_attach1"					"atdm:ai_anthro_tail_sciuridae_black"
+	"name_attach1"					"tail"
+	"pos_attach1"					"Hips"
+}
+
+// sciuridae female orange
+
+entityDef atdm:ai_anthro_sciuridae_female_orange
+{
+	"inherit"						"atdm:ai_humanoid_newskel"
+	"editor_displayFolder"			"AI/Anthros/Simple"
+	"editor_usage"					"Anthro sciuridae female, orange."
+
+	"AIUse"							"AIUSE_PERSON"
+	"personType"					"PERSONTYPE_GENERIC"
+	"personGender"					"PERSONGENDER_FEMALE"
+
+	"is_civilian"					"1"
+	"canLightTorches"				"0"
+
+	"ragdoll"						"guard_base_newskel"
+	"model"							"anthro_body_female"
+	"skin"         					"anthros/anthro_body_orange"
+	"def_head"						"atdm:ai_anthro_head_sciuridae_female_orange"
+	"offsetHeadModel"				"1.0 0 -2.8"
+
+	"rank"							"1"
+	"team"							"3"
+
+	"health"						"80"
+	"mass"							"70"
+
+	// can be KO'd from front when alert
+	"ko_angle_alert_horiz"			"360"
+	"ko_angle_alert_vert"			"360"
+	"ko_alert_immune"				"0"
+
+	"def_attach1"					"atdm:ai_anthro_tail_sciuridae_orange"
+	"name_attach1"					"tail"
+	"pos_attach1"					"Hips"
+
+	"def_melee_set"					"atdm:ai_melee_set_novice"
+	"def_vocal_set"					"atdm:ai_vocal_set_lady_01"
+
+	// paw footsteps
+	"snd_footstep"					"bare_footstep"
+	"snd_footstep_wood"				"bare_footstep"
+	"snd_footstep_tile"				"bare_footstep"
+	"snd_footstep_stone"			"bare_footstep"
+	"snd_footstep_metal"			"bare_footstep"
+	"snd_rustle"					"nosound"
+
+	"hide_distance"					"-1" // never
+	"dist_check_period"				"0.7"
+}
+
+entityDef atdm:env_ragdoll_anthro_sciuridae_female_orange
+{
+	"inherit"						"atdm:env_ragdoll_anthro_humanoid_base_newskel"
+	"editor_usage"					"Ragdoll for anthro sciuridae female, orange."
+	"AIUse"							"AIUSE_PERSON"
+	"personType"					"PERSONTYPE_GENERIC"
+	"personGender"					"PERSONGENDER_FEMALE"
+
+	"model"							"anthro_body_female"
+	"skin"         					"anthros/anthro_body_orange"
+	"def_head"						"atdm:ai_anthro_head_sciuridae_female_orange"
+
+	"def_attach1"					"atdm:ai_anthro_tail_sciuridae_orange"
+	"name_attach1"					"tail"
+	"pos_attach1"					"Hips"
+}
+
+// sciuridae female silver
+
+entityDef atdm:ai_anthro_sciuridae_female_silver
+{
+	"inherit"						"atdm:ai_humanoid_newskel"
+	"editor_displayFolder"			"AI/Anthros/Simple"
+	"editor_usage"					"Anthro sciuridae female, silver."
+
+	"AIUse"							"AIUSE_PERSON"
+	"personType"					"PERSONTYPE_GENERIC"
+	"personGender"					"PERSONGENDER_FEMALE"
+
+	"is_civilian"					"1"
+	"canLightTorches"				"0"
+
+	"ragdoll"						"guard_base_newskel"
+	"model"							"anthro_body_female"
+	"skin"         					"anthros/anthro_body_silver"
+	"def_head"						"atdm:ai_anthro_head_sciuridae_female_silver"
+	"offsetHeadModel"				"1.0 0 -2.8"
+
+	"rank"							"1"
+	"team"							"3"
+
+	"health"						"80"
+	"mass"							"70"
+
+	// can be KO'd from front when alert
+	"ko_angle_alert_horiz"			"360"
+	"ko_angle_alert_vert"			"360"
+	"ko_alert_immune"				"0"
+
+	"def_attach1"					"atdm:ai_anthro_tail_sciuridae_silver"
+	"name_attach1"					"tail"
+	"pos_attach1"					"Hips"
+
+	"def_melee_set"					"atdm:ai_melee_set_novice"
+	"def_vocal_set"					"atdm:ai_vocal_set_lady_01"
+
+	// paw footsteps
+	"snd_footstep"					"bare_footstep"
+	"snd_footstep_wood"				"bare_footstep"
+	"snd_footstep_tile"				"bare_footstep"
+	"snd_footstep_stone"			"bare_footstep"
+	"snd_footstep_metal"			"bare_footstep"
+	"snd_rustle"					"nosound"
+
+	"hide_distance"					"-1" // never
+	"dist_check_period"				"0.7"
+}
+
+entityDef atdm:env_ragdoll_anthro_sciuridae_female_silver
+{
+	"inherit"						"atdm:env_ragdoll_anthro_humanoid_base_newskel"
+	"editor_usage"					"Ragdoll for anthro sciuridae female, silver."
+	"AIUse"							"AIUSE_PERSON"
+	"personType"					"PERSONTYPE_GENERIC"
+	"personGender"					"PERSONGENDER_FEMALE"
+
+	"model"							"anthro_body_female"
+	"skin"         					"anthros/anthro_body_silver"
+	"def_head"						"atdm:ai_anthro_head_sciuridae_female_silver"
+
+	"def_attach1"					"atdm:ai_anthro_tail_sciuridae_silver"
+	"name_attach1"					"tail"
+	"pos_attach1"					"Hips"
+}
+
+// sciuridae female black
+
+entityDef atdm:ai_anthro_sciuridae_female_black
+{
+	"inherit"						"atdm:ai_humanoid_newskel"
+	"editor_displayFolder"			"AI/Anthros/Simple"
+	"editor_usage"					"Anthro sciuridae female, black."
+
+	"AIUse"							"AIUSE_PERSON"
+	"personType"					"PERSONTYPE_GENERIC"
+	"personGender"					"PERSONGENDER_FEMALE"
+
+	"is_civilian"					"1"
+	"canLightTorches"				"0"
+
+	"ragdoll"						"guard_base_newskel"
+	"model"							"anthro_body_female"
+	"skin"         					"anthros/anthro_body_black"
+	"def_head"						"atdm:ai_anthro_head_sciuridae_female_black"
+	"offsetHeadModel"				"1.0 0 -2.8"
+
+	"rank"							"1"
+	"team"							"3"
+
+	"health"						"80"
+	"mass"							"70"
+
+	// can be KO'd from front when alert
+	"ko_angle_alert_horiz"			"360"
+	"ko_angle_alert_vert"			"360"
+	"ko_alert_immune"				"0"
+
+	"def_attach1"					"atdm:ai_anthro_tail_sciuridae_black"
+	"name_attach1"					"tail"
+	"pos_attach1"					"Hips"
+
+	"def_melee_set"					"atdm:ai_melee_set_novice"
+	"def_vocal_set"					"atdm:ai_vocal_set_lady_guard_01"
+
+	// paw footsteps
+	"snd_footstep"					"bare_footstep"
+	"snd_footstep_wood"				"bare_footstep"
+	"snd_footstep_tile"				"bare_footstep"
+	"snd_footstep_stone"			"bare_footstep"
+	"snd_footstep_metal"			"bare_footstep"
+	"snd_rustle"					"nosound"
+
+	"hide_distance"					"-1" // never
+	"dist_check_period"				"0.7"
+}
+
+entityDef atdm:env_ragdoll_anthro_sciuridae_female_black
+{
+	"inherit"						"atdm:env_ragdoll_anthro_humanoid_base_newskel"
+	"editor_usage"					"Ragdoll for anthro sciuridae female, black."
+	"AIUse"							"AIUSE_PERSON"
+	"personType"					"PERSONTYPE_GENERIC"
+	"personGender"					"PERSONGENDER_FEMALE"
+
+	"model"							"anthro_body_female"
+	"skin"         					"anthros/anthro_body_black"
+	"def_head"						"atdm:ai_anthro_head_sciuridae_female_black"
+
+	"def_attach1"					"atdm:ai_anthro_tail_sciuridae_black"
+	"name_attach1"					"tail"
+	"pos_attach1"					"Hips"
+}
+
+// lapine male silver
+
+entityDef atdm:ai_anthro_lapine_male_silver
+{
+	"inherit"						"atdm:ai_humanoid_newskel"
+	"editor_displayFolder"			"AI/Anthros/Simple"
+	"editor_usage"					"Anthro lapine male, silver."
+
+	"AIUse"							"AIUSE_PERSON"
+	"personType"					"PERSONTYPE_GENERIC"
+	"personGender"					"PERSONGENDER_MALE"
+
+	"is_civilian"					"1"
+	"canLightTorches"				"0"
+
+	"ragdoll"						"guard_base_newskel"
+	"model"							"anthro_body_male"
+	"skin"         					"anthros/anthro_body_silver"
+	"def_head"						"atdm:ai_anthro_head_lapine_male_silver"
+	"offsetHeadModel"				"1.0 0 -2.8"
+
+	"rank"							"1"
+	"team"							"3"
+
+	"health"						"90"
+	"mass"							"85"
+
+	// can be KO'd from front when alert
+	"ko_angle_alert_horiz"			"360"
+	"ko_angle_alert_vert"			"360"
+	"ko_alert_immune"				"0"
+
+	"def_attach1"					"atdm:ai_anthro_tail_lapine_silver"
+	"name_attach1"					"tail"
+	"pos_attach1"					"Hips"
+
+	"def_melee_set"					"atdm:ai_melee_set_novice"
+	"def_vocal_set"					"atdm:ai_vocal_set_jack_civilian_01"
+
+	// paw footsteps
+	"snd_footstep"					"bare_footstep"
+	"snd_footstep_wood"				"bare_footstep"
+	"snd_footstep_tile"				"bare_footstep"
+	"snd_footstep_stone"			"bare_footstep"
+	"snd_footstep_metal"			"bare_footstep"
+	"snd_rustle"					"nosound"
+
+	"hide_distance"					"-1" // never
+	"dist_check_period"				"0.7"
+}
+
+entityDef atdm:env_ragdoll_anthro_lapine_male_silver
+{
+	"inherit"						"atdm:env_ragdoll_anthro_humanoid_base_newskel"
+	"editor_usage"					"Ragdoll for anthro lapine male, silver."
+	"AIUse"							"AIUSE_PERSON"
+	"personType"					"PERSONTYPE_GENERIC"
+	"personGender"					"PERSONGENDER_MALE"
+
+	"model"							"anthro_body_male"
+	"skin"         					"anthros/anthro_body_silver"
+	"def_head"						"atdm:ai_anthro_head_lapine_male_silver"
+
+	"def_attach1"					"atdm:ai_anthro_tail_lapine_silver"
+	"name_attach1"					"tail"
+	"pos_attach1"					"Hips"
+}
+
+// lapine male gray
+
+entityDef atdm:ai_anthro_lapine_male_gray
+{
+	"inherit"						"atdm:ai_humanoid_newskel"
+	"editor_displayFolder"			"AI/Anthros/Simple"
+	"editor_usage"					"Anthro lapine male, gray."
+
+	"AIUse"							"AIUSE_PERSON"
+	"personType"					"PERSONTYPE_GENERIC"
+	"personGender"					"PERSONGENDER_MALE"
+
+	"is_civilian"					"1"
+	"canLightTorches"				"0"
+
+	"ragdoll"						"guard_base_newskel"
+	"model"							"anthro_body_male"
+	"skin"         					"anthros/anthro_body_gray"
+	"def_head"						"atdm:ai_anthro_head_lapine_male_gray"
+	"offsetHeadModel"				"1.0 0 -2.8"
+
+	"rank"							"1"
+	"team"							"3"
+
+	"health"						"90"
+	"mass"							"85"
+
+	// can be KO'd from front when alert
+	"ko_angle_alert_horiz"			"360"
+	"ko_angle_alert_vert"			"360"
+	"ko_alert_immune"				"0"
+
+	"def_attach1"					"atdm:ai_anthro_tail_lapine_gray"
+	"name_attach1"					"tail"
+	"pos_attach1"					"Hips"
+
+	"def_melee_set"					"atdm:ai_melee_set_novice"
+	"def_vocal_set"					"atdm:ai_vocal_set_jack_merchant_01"
+
+	// paw footsteps
+	"snd_footstep"					"bare_footstep"
+	"snd_footstep_wood"				"bare_footstep"
+	"snd_footstep_tile"				"bare_footstep"
+	"snd_footstep_stone"			"bare_footstep"
+	"snd_footstep_metal"			"bare_footstep"
+	"snd_rustle"					"nosound"
+
+	"hide_distance"					"-1" // never
+	"dist_check_period"				"0.7"
+}
+
+entityDef atdm:env_ragdoll_anthro_lapine_male_gray
+{
+	"inherit"						"atdm:env_ragdoll_anthro_humanoid_base_newskel"
+	"editor_usage"					"Ragdoll for anthro lapine male, gray."
+	"AIUse"							"AIUSE_PERSON"
+	"personType"					"PERSONTYPE_GENERIC"
+	"personGender"					"PERSONGENDER_MALE"
+
+	"model"							"anthro_body_male"
+	"skin"         					"anthros/anthro_body_gray"
+	"def_head"						"atdm:ai_anthro_head_lapine_male_gray"
+
+	"def_attach1"					"atdm:ai_anthro_tail_lapine_gray"
+	"name_attach1"					"tail"
+	"pos_attach1"					"Hips"
+}
+
+// lapine male black
+
+entityDef atdm:ai_anthro_lapine_male_black
+{
+	"inherit"						"atdm:ai_humanoid_newskel"
+	"editor_displayFolder"			"AI/Anthros/Simple"
+	"editor_usage"					"Anthro lapine male, black."
+
+	"AIUse"							"AIUSE_PERSON"
+	"personType"					"PERSONTYPE_GENERIC"
+	"personGender"					"PERSONGENDER_MALE"
+
+	"is_civilian"					"1"
+	"canLightTorches"				"0"
+
+	"ragdoll"						"guard_base_newskel"
+	"model"							"anthro_body_male"
+	"skin"         					"anthros/anthro_body_black"
+	"def_head"						"atdm:ai_anthro_head_lapine_male_black"
+	"offsetHeadModel"				"1.0 0 -2.8"
+
+	"rank"							"1"
+	"team"							"3"
+
+	"health"						"90"
+	"mass"							"85"
+
+	// can be KO'd from front when alert
+	"ko_angle_alert_horiz"			"360"
+	"ko_angle_alert_vert"			"360"
+	"ko_alert_immune"				"0"
+
+	"def_attach1"					"atdm:ai_anthro_tail_lapine_black"
+	"name_attach1"					"tail"
+	"pos_attach1"					"Hips"
+
+	"def_melee_set"					"atdm:ai_melee_set_novice"
+	"def_vocal_set"					"atdm:ai_vocal_set_jack_guard_01"
+
+	// paw footsteps
+	"snd_footstep"					"bare_footstep"
+	"snd_footstep_wood"				"bare_footstep"
+	"snd_footstep_tile"				"bare_footstep"
+	"snd_footstep_stone"			"bare_footstep"
+	"snd_footstep_metal"			"bare_footstep"
+	"snd_rustle"					"nosound"
+
+	"hide_distance"					"-1" // never
+	"dist_check_period"				"0.7"
+}
+
+entityDef atdm:env_ragdoll_anthro_lapine_male_black
+{
+	"inherit"						"atdm:env_ragdoll_anthro_humanoid_base_newskel"
+	"editor_usage"					"Ragdoll for anthro lapine male, black."
+	"AIUse"							"AIUSE_PERSON"
+	"personType"					"PERSONTYPE_GENERIC"
+	"personGender"					"PERSONGENDER_MALE"
+
+	"model"							"anthro_body_male"
+	"skin"         					"anthros/anthro_body_black"
+	"def_head"						"atdm:ai_anthro_head_lapine_male_black"
+
+	"def_attach1"					"atdm:ai_anthro_tail_lapine_black"
+	"name_attach1"					"tail"
+	"pos_attach1"					"Hips"
+}
+
+// lapine female silver
+
+entityDef atdm:ai_anthro_lapine_female_silver
+{
+	"inherit"						"atdm:ai_humanoid_newskel"
+	"editor_displayFolder"			"AI/Anthros/Simple"
+	"editor_usage"					"Anthro lapine female, silver."
+
+	"AIUse"							"AIUSE_PERSON"
+	"personType"					"PERSONTYPE_GENERIC"
+	"personGender"					"PERSONGENDER_FEMALE"
+
+	"is_civilian"					"1"
+	"canLightTorches"				"0"
+
+	"ragdoll"						"guard_base_newskel"
+	"model"							"anthro_body_female"
+	"skin"         					"anthros/anthro_body_silver"
+	"def_head"						"atdm:ai_anthro_head_lapine_female_silver"
+	"offsetHeadModel"				"1.0 0 -2.8"
+
+	"rank"							"1"
+	"team"							"3"
+
+	"health"						"80"
+	"mass"							"75"
+
+	// can be KO'd from front when alert
+	"ko_angle_alert_horiz"			"360"
+	"ko_angle_alert_vert"			"360"
+	"ko_alert_immune"				"0"
+
+	"def_attach1"					"atdm:ai_anthro_tail_lapine_silver"
+	"name_attach1"					"tail"
+	"pos_attach1"					"Hips"
+
+	"def_melee_set"					"atdm:ai_melee_set_novice"
+	"def_vocal_set"					"atdm:ai_vocal_set_lady_armed_02"
+
+	// paw footsteps
+	"snd_footstep"					"bare_footstep"
+	"snd_footstep_wood"				"bare_footstep"
+	"snd_footstep_tile"				"bare_footstep"
+	"snd_footstep_stone"			"bare_footstep"
+	"snd_footstep_metal"			"bare_footstep"
+	"snd_rustle"					"nosound"
+
+	"hide_distance"					"-1" // never
+	"dist_check_period"				"0.7"
+}
+
+entityDef atdm:env_ragdoll_anthro_lapine_female_silver
+{
+	"inherit"						"atdm:env_ragdoll_anthro_humanoid_base_newskel"
+	"editor_usage"					"Ragdoll for anthro lapine female, silver."
+	"AIUse"							"AIUSE_PERSON"
+	"personType"					"PERSONTYPE_GENERIC"
+	"personGender"					"PERSONGENDER_FEMALE"
+
+	"model"							"anthro_body_female"
+	"skin"         					"anthros/anthro_body_silver"
+	"def_head"						"atdm:ai_anthro_head_lapine_female_silver"
+
+	"def_attach1"					"atdm:ai_anthro_tail_lapine_silver"
+	"name_attach1"					"tail"
+	"pos_attach1"					"Hips"
+}
+
+// lapine female gray
+
+entityDef atdm:ai_anthro_lapine_female_gray
+{
+	"inherit"						"atdm:ai_humanoid_newskel"
+	"editor_displayFolder"			"AI/Anthros/Simple"
+	"editor_usage"					"Anthro lapine female, gray."
+
+	"AIUse"							"AIUSE_PERSON"
+	"personType"					"PERSONTYPE_GENERIC"
+	"personGender"					"PERSONGENDER_FEMALE"
+
+	"is_civilian"					"1"
+	"canLightTorches"				"0"
+
+	"ragdoll"						"guard_base_newskel"
+	"model"							"anthro_body_female"
+	"skin"         					"anthros/anthro_body_gray"
+	"def_head"						"atdm:ai_anthro_head_lapine_female_gray"
+	"offsetHeadModel"				"1.0 0 -2.8"
+
+	"rank"							"1"
+	"team"							"3"
+
+	"health"						"80"
+	"mass"							"75"
+
+	// can be KO'd from front when alert
+	"ko_angle_alert_horiz"			"360"
+	"ko_angle_alert_vert"			"360"
+	"ko_alert_immune"				"0"
+
+	"def_attach1"					"atdm:ai_anthro_tail_lapine_gray"
+	"name_attach1"					"tail"
+	"pos_attach1"					"Hips"
+
+	"def_melee_set"					"atdm:ai_melee_set_novice"
+	"def_vocal_set"					"atdm:ai_vocal_set_lady_02"
+
+	// paw footsteps
+	"snd_footstep"					"bare_footstep"
+	"snd_footstep_wood"				"bare_footstep"
+	"snd_footstep_tile"				"bare_footstep"
+	"snd_footstep_stone"			"bare_footstep"
+	"snd_footstep_metal"			"bare_footstep"
+	"snd_rustle"					"nosound"
+
+	"hide_distance"					"-1" // never
+	"dist_check_period"				"0.7"
+}
+
+entityDef atdm:env_ragdoll_anthro_lapine_female_gray
+{
+	"inherit"						"atdm:env_ragdoll_anthro_humanoid_base_newskel"
+	"editor_usage"					"Ragdoll for anthro lapine female, gray."
+	"AIUse"							"AIUSE_PERSON"
+	"personType"					"PERSONTYPE_GENERIC"
+	"personGender"					"PERSONGENDER_FEMALE"
+
+	"model"							"anthro_body_female"
+	"skin"         					"anthros/anthro_body_gray"
+	"def_head"						"atdm:ai_anthro_head_lapine_female_gray"
+
+	"def_attach1"					"atdm:ai_anthro_tail_lapine_gray"
+	"name_attach1"					"tail"
+	"pos_attach1"					"Hips"
+}
+
+// lapine female black
+
+entityDef atdm:ai_anthro_lapine_female_black
+{
+	"inherit"						"atdm:ai_humanoid_newskel"
+	"editor_displayFolder"			"AI/Anthros/Simple"
+	"editor_usage"					"Anthro lapine female, black."
+
+	"AIUse"							"AIUSE_PERSON"
+	"personType"					"PERSONTYPE_GENERIC"
+	"personGender"					"PERSONGENDER_FEMALE"
+
+	"is_civilian"					"1"
+	"canLightTorches"				"0"
+
+	"ragdoll"						"guard_base_newskel"
+	"model"							"anthro_body_female"
+	"skin"         					"anthros/anthro_body_black"
+	"def_head"						"atdm:ai_anthro_head_lapine_female_black"
+	"offsetHeadModel"				"1.0 0 -2.8"
+
+	"rank"							"1"
+	"team"							"3"
+
+	"health"						"80"
+	"mass"							"75"
+
+	// can be KO'd from front when alert
+	"ko_angle_alert_horiz"			"360"
+	"ko_angle_alert_vert"			"360"
+	"ko_alert_immune"				"0"
+
+	"def_attach1"					"atdm:ai_anthro_tail_lapine_black"
+	"name_attach1"					"tail"
+	"pos_attach1"					"Hips"
+
+	"def_melee_set"					"atdm:ai_melee_set_novice"
+	"def_vocal_set"					"atdm:ai_vocal_set_lady_armed_02"
+
+	// paw footsteps
+	"snd_footstep"					"bare_footstep"
+	"snd_footstep_wood"				"bare_footstep"
+	"snd_footstep_tile"				"bare_footstep"
+	"snd_footstep_stone"			"bare_footstep"
+	"snd_footstep_metal"			"bare_footstep"
+	"snd_rustle"					"nosound"
+
+	"hide_distance"					"-1" // never
+	"dist_check_period"				"0.7"
+}
+
+entityDef atdm:env_ragdoll_anthro_lapine_female_black
+{
+	"inherit"						"atdm:env_ragdoll_anthro_humanoid_base_newskel"
+	"editor_usage"					"Ragdoll for anthro lapine female, black."
+	"AIUse"							"AIUSE_PERSON"
+	"personType"					"PERSONTYPE_GENERIC"
+	"personGender"					"PERSONGENDER_FEMALE"
+
+	"model"							"anthro_body_female"
+	"skin"         					"anthros/anthro_body_black"
+	"def_head"						"atdm:ai_anthro_head_lapine_female_black"
+
+	"def_attach1"					"atdm:ai_anthro_tail_lapine_black"
+	"name_attach1"					"tail"
+	"pos_attach1"					"Hips"
+}
