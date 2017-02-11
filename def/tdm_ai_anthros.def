@@ -51,7 +51,7 @@ entityDef atdm:ai_anthro_hair_yellow
 	"inherit"					"func_static"
 	"editor_displayFolder"		"AI/Anthros/Props"
 
-	"model"						"models/md5/chars/anthros/anthro_hair.lwo"
+	"model"						"models/md5/chars/anthros/anthro_hair_5.lwo"
 	"skin"          			"anthros/anthro_hair_yellow"
 
 	"frobable"					"0"
@@ -70,7 +70,7 @@ entityDef atdm:ai_anthro_hair_orange
 	"inherit"					"func_static"
 	"editor_displayFolder"		"AI/Anthros/Props"
 
-	"model"						"models/md5/chars/anthros/anthro_hair.lwo"
+	"model"						"models/md5/chars/anthros/anthro_hair_1.lwo"
 	"skin"          			"anthros/anthro_hair_orange"
 
 	"frobable"					"0"
@@ -89,7 +89,7 @@ entityDef atdm:ai_anthro_hair_red
 	"inherit"					"func_static"
 	"editor_displayFolder"		"AI/Anthros/Props"
 
-	"model"						"models/md5/chars/anthros/anthro_hair.lwo"
+	"model"						"models/md5/chars/anthros/anthro_hair_3.lwo"
 	"skin"          			"anthros/anthro_hair_red"
 
 	"frobable"					"0"
@@ -108,7 +108,7 @@ entityDef atdm:ai_anthro_hair_white
 	"inherit"					"func_static"
 	"editor_displayFolder"		"AI/Anthros/Props"
 
-	"model"						"models/md5/chars/anthros/anthro_hair.lwo"
+	"model"						"models/md5/chars/anthros/anthro_hair_4.lwo"
 	"skin"          			"anthros/anthro_hair_white"
 
 	"frobable"					"0"
@@ -127,7 +127,7 @@ entityDef atdm:ai_anthro_hair_black
 	"inherit"					"func_static"
 	"editor_displayFolder"		"AI/Anthros/Props"
 
-	"model"						"models/md5/chars/anthros/anthro_hair.lwo"
+	"model"						"models/md5/chars/anthros/anthro_hair_2.lwo"
 	"skin"          			"anthros/anthro_hair_black"
 
 	"frobable"					"0"
