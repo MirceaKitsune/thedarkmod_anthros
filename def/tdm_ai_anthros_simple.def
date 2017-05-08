@@ -60,6 +60,7 @@ entityDef atdm:env_ragdoll_anthro_lupine_male_silver
 	"model"							"anthro_body_male"
 	"skin"         					"anthros/anthro_body_silver"
 	"def_head"						"atdm:ai_anthro_head_lupine_male_silver"
+	"offsetHeadModel"				"1.0 0 -2.8"
 
 	"def_attach1"					"atdm:ai_anthro_tail_lupine_silver"
 	"name_attach1"					"tail"
@@ -128,6 +129,7 @@ entityDef atdm:env_ragdoll_anthro_lupine_male_gray
 	"model"							"anthro_body_male"
 	"skin"         					"anthros/anthro_body_gray"
 	"def_head"						"atdm:ai_anthro_head_lupine_male_gray"
+	"offsetHeadModel"				"1.0 0 -2.8"
 
 	"def_attach1"					"atdm:ai_anthro_tail_lupine_gray"
 	"name_attach1"					"tail"
@@ -196,6 +198,7 @@ entityDef atdm:env_ragdoll_anthro_lupine_male_black
 	"model"							"anthro_body_male"
 	"skin"         					"anthros/anthro_body_black"
 	"def_head"						"atdm:ai_anthro_head_lupine_male_black"
+	"offsetHeadModel"				"1.0 0 -2.8"
 
 	"def_attach1"					"atdm:ai_anthro_tail_lupine_black"
 	"name_attach1"					"tail"
@@ -264,6 +267,7 @@ entityDef atdm:env_ragdoll_anthro_lupine_female_silver
 	"model"							"anthro_body_female"
 	"skin"         					"anthros/anthro_body_silver"
 	"def_head"						"atdm:ai_anthro_head_lupine_female_silver"
+	"offsetHeadModel"				"1.0 0 -2.8"
 
 	"def_attach1"					"atdm:ai_anthro_tail_lupine_silver"
 	"name_attach1"					"tail"
@@ -332,6 +336,7 @@ entityDef atdm:env_ragdoll_anthro_lupine_female_gray
 	"model"							"anthro_body_female"
 	"skin"         					"anthros/anthro_body_gray"
 	"def_head"						"atdm:ai_anthro_head_lupine_female_gray"
+	"offsetHeadModel"				"1.0 0 -2.8"
 
 	"def_attach1"					"atdm:ai_anthro_tail_lupine_gray"
 	"name_attach1"					"tail"
@@ -400,6 +405,7 @@ entityDef atdm:env_ragdoll_anthro_lupine_female_black
 	"model"							"anthro_body_female"
 	"skin"         					"anthros/anthro_body_black"
 	"def_head"						"atdm:ai_anthro_head_lupine_female_black"
+	"offsetHeadModel"				"1.0 0 -2.8"
 
 	"def_attach1"					"atdm:ai_anthro_tail_lupine_black"
 	"name_attach1"					"tail"
@@ -468,6 +474,7 @@ entityDef atdm:env_ragdoll_anthro_vulpine_male_red
 	"model"							"anthro_body_male"
 	"skin"         					"anthros/anthro_body_red"
 	"def_head"						"atdm:ai_anthro_head_vulpine_male_red"
+	"offsetHeadModel"				"1.0 0 -2.8"
 
 	"def_attach1"					"atdm:ai_anthro_tail_vulpine_red"
 	"name_attach1"					"tail"
@@ -536,6 +543,7 @@ entityDef atdm:env_ragdoll_anthro_vulpine_male_silver
 	"model"							"anthro_body_male"
 	"skin"         					"anthros/anthro_body_silver"
 	"def_head"						"atdm:ai_anthro_head_vulpine_male_silver"
+	"offsetHeadModel"				"1.0 0 -2.8"
 
 	"def_attach1"					"atdm:ai_anthro_tail_vulpine_silver"
 	"name_attach1"					"tail"
@@ -604,6 +612,7 @@ entityDef atdm:env_ragdoll_anthro_vulpine_male_black
 	"model"							"anthro_body_male"
 	"skin"         					"anthros/anthro_body_black"
 	"def_head"						"atdm:ai_anthro_head_vulpine_male_black"
+	"offsetHeadModel"				"1.0 0 -2.8"
 
 	"def_attach1"					"atdm:ai_anthro_tail_vulpine_black"
 	"name_attach1"					"tail"
@@ -672,6 +681,7 @@ entityDef atdm:env_ragdoll_anthro_vulpine_female_red
 	"model"							"anthro_body_female"
 	"skin"         					"anthros/anthro_body_red"
 	"def_head"						"atdm:ai_anthro_head_vulpine_female_red"
+	"offsetHeadModel"				"1.0 0 -2.8"
 
 	"def_attach1"					"atdm:ai_anthro_tail_vulpine_red"
 	"name_attach1"					"tail"
@@ -740,6 +750,7 @@ entityDef atdm:env_ragdoll_anthro_vulpine_female_silver
 	"model"							"anthro_body_female"
 	"skin"         					"anthros/anthro_body_silver"
 	"def_head"						"atdm:ai_anthro_head_vulpine_female_silver"
+	"offsetHeadModel"				"1.0 0 -2.8"
 
 	"def_attach1"					"atdm:ai_anthro_tail_vulpine_silver"
 	"name_attach1"					"tail"
@@ -808,6 +819,7 @@ entityDef atdm:env_ragdoll_anthro_vulpine_female_black
 	"model"							"anthro_body_female"
 	"skin"         					"anthros/anthro_body_black"
 	"def_head"						"atdm:ai_anthro_head_vulpine_female_black"
+	"offsetHeadModel"				"1.0 0 -2.8"
 
 	"def_attach1"					"atdm:ai_anthro_tail_vulpine_black"
 	"name_attach1"					"tail"
@@ -876,6 +888,7 @@ entityDef atdm:env_ragdoll_anthro_felidae_male_yellow
 	"model"							"anthro_body_male"
 	"skin"         					"anthros/anthro_body_yellow"
 	"def_head"						"atdm:ai_anthro_head_felidae_male_yellow"
+	"offsetHeadModel"				"1.0 0 -2.8"
 
 	"def_attach1"					"atdm:ai_anthro_tail_felidae_yellow"
 	"name_attach1"					"tail"
@@ -944,6 +957,7 @@ entityDef atdm:env_ragdoll_anthro_felidae_male_white
 	"model"							"anthro_body_male"
 	"skin"         					"anthros/anthro_body_white"
 	"def_head"						"atdm:ai_anthro_head_felidae_male_white"
+	"offsetHeadModel"				"1.0 0 -2.8"
 
 	"def_attach1"					"atdm:ai_anthro_tail_felidae_white"
 	"name_attach1"					"tail"
@@ -1012,6 +1026,7 @@ entityDef atdm:env_ragdoll_anthro_felidae_male_black
 	"model"							"anthro_body_male"
 	"skin"         					"anthros/anthro_body_black"
 	"def_head"						"atdm:ai_anthro_head_felidae_male_black"
+	"offsetHeadModel"				"1.0 0 -2.8"
 
 	"def_attach1"					"atdm:ai_anthro_tail_felidae_black"
 	"name_attach1"					"tail"
@@ -1080,6 +1095,7 @@ entityDef atdm:env_ragdoll_anthro_felidae_female_yellow
 	"model"							"anthro_body_female"
 	"skin"         					"anthros/anthro_body_yellow"
 	"def_head"						"atdm:ai_anthro_head_felidae_female_yellow"
+	"offsetHeadModel"				"1.0 0 -2.8"
 
 	"def_attach1"					"atdm:ai_anthro_tail_felidae_yellow"
 	"name_attach1"					"tail"
@@ -1148,6 +1164,7 @@ entityDef atdm:env_ragdoll_anthro_felidae_female_white
 	"model"							"anthro_body_female"
 	"skin"         					"anthros/anthro_body_white"
 	"def_head"						"atdm:ai_anthro_head_felidae_female_white"
+	"offsetHeadModel"				"1.0 0 -2.8"
 
 	"def_attach1"					"atdm:ai_anthro_tail_felidae_white"
 	"name_attach1"					"tail"
@@ -1216,6 +1233,7 @@ entityDef atdm:env_ragdoll_anthro_felidae_female_black
 	"model"							"anthro_body_female"
 	"skin"         					"anthros/anthro_body_black"
 	"def_head"						"atdm:ai_anthro_head_felidae_female_black"
+	"offsetHeadModel"				"1.0 0 -2.8"
 
 	"def_attach1"					"atdm:ai_anthro_tail_felidae_black"
 	"name_attach1"					"tail"
@@ -1284,6 +1302,7 @@ entityDef atdm:env_ragdoll_anthro_sciuridae_male_orange
 	"model"							"anthro_body_male"
 	"skin"         					"anthros/anthro_body_orange"
 	"def_head"						"atdm:ai_anthro_head_sciuridae_male_orange"
+	"offsetHeadModel"				"1.0 0 -2.8"
 
 	"def_attach1"					"atdm:ai_anthro_tail_sciuridae_orange"
 	"name_attach1"					"tail"
@@ -1352,6 +1371,7 @@ entityDef atdm:env_ragdoll_anthro_sciuridae_male_silver
 	"model"							"anthro_body_male"
 	"skin"         					"anthros/anthro_body_silver"
 	"def_head"						"atdm:ai_anthro_head_sciuridae_male_silver"
+	"offsetHeadModel"				"1.0 0 -2.8"
 
 	"def_attach1"					"atdm:ai_anthro_tail_sciuridae_silver"
 	"name_attach1"					"tail"
@@ -1420,6 +1440,7 @@ entityDef atdm:env_ragdoll_anthro_sciuridae_male_black
 	"model"							"anthro_body_male"
 	"skin"         					"anthros/anthro_body_black"
 	"def_head"						"atdm:ai_anthro_head_sciuridae_male_black"
+	"offsetHeadModel"				"1.0 0 -2.8"
 
 	"def_attach1"					"atdm:ai_anthro_tail_sciuridae_black"
 	"name_attach1"					"tail"
@@ -1488,6 +1509,7 @@ entityDef atdm:env_ragdoll_anthro_sciuridae_female_orange
 	"model"							"anthro_body_female"
 	"skin"         					"anthros/anthro_body_orange"
 	"def_head"						"atdm:ai_anthro_head_sciuridae_female_orange"
+	"offsetHeadModel"				"1.0 0 -2.8"
 
 	"def_attach1"					"atdm:ai_anthro_tail_sciuridae_orange"
 	"name_attach1"					"tail"
@@ -1556,6 +1578,7 @@ entityDef atdm:env_ragdoll_anthro_sciuridae_female_silver
 	"model"							"anthro_body_female"
 	"skin"         					"anthros/anthro_body_silver"
 	"def_head"						"atdm:ai_anthro_head_sciuridae_female_silver"
+	"offsetHeadModel"				"1.0 0 -2.8"
 
 	"def_attach1"					"atdm:ai_anthro_tail_sciuridae_silver"
 	"name_attach1"					"tail"
@@ -1624,6 +1647,7 @@ entityDef atdm:env_ragdoll_anthro_sciuridae_female_black
 	"model"							"anthro_body_female"
 	"skin"         					"anthros/anthro_body_black"
 	"def_head"						"atdm:ai_anthro_head_sciuridae_female_black"
+	"offsetHeadModel"				"1.0 0 -2.8"
 
 	"def_attach1"					"atdm:ai_anthro_tail_sciuridae_black"
 	"name_attach1"					"tail"
@@ -1692,6 +1716,7 @@ entityDef atdm:env_ragdoll_anthro_lapine_male_silver
 	"model"							"anthro_body_male"
 	"skin"         					"anthros/anthro_body_silver"
 	"def_head"						"atdm:ai_anthro_head_lapine_male_silver"
+	"offsetHeadModel"				"1.0 0 -2.8"
 
 	"def_attach1"					"atdm:ai_anthro_tail_lapine_silver"
 	"name_attach1"					"tail"
@@ -1760,6 +1785,7 @@ entityDef atdm:env_ragdoll_anthro_lapine_male_gray
 	"model"							"anthro_body_male"
 	"skin"         					"anthros/anthro_body_gray"
 	"def_head"						"atdm:ai_anthro_head_lapine_male_gray"
+	"offsetHeadModel"				"1.0 0 -2.8"
 
 	"def_attach1"					"atdm:ai_anthro_tail_lapine_gray"
 	"name_attach1"					"tail"
@@ -1828,6 +1854,7 @@ entityDef atdm:env_ragdoll_anthro_lapine_male_black
 	"model"							"anthro_body_male"
 	"skin"         					"anthros/anthro_body_black"
 	"def_head"						"atdm:ai_anthro_head_lapine_male_black"
+	"offsetHeadModel"				"1.0 0 -2.8"
 
 	"def_attach1"					"atdm:ai_anthro_tail_lapine_black"
 	"name_attach1"					"tail"
@@ -1896,6 +1923,7 @@ entityDef atdm:env_ragdoll_anthro_lapine_female_silver
 	"model"							"anthro_body_female"
 	"skin"         					"anthros/anthro_body_silver"
 	"def_head"						"atdm:ai_anthro_head_lapine_female_silver"
+	"offsetHeadModel"				"1.0 0 -2.8"
 
 	"def_attach1"					"atdm:ai_anthro_tail_lapine_silver"
 	"name_attach1"					"tail"
@@ -1964,6 +1992,7 @@ entityDef atdm:env_ragdoll_anthro_lapine_female_gray
 	"model"							"anthro_body_female"
 	"skin"         					"anthros/anthro_body_gray"
 	"def_head"						"atdm:ai_anthro_head_lapine_female_gray"
+	"offsetHeadModel"				"1.0 0 -2.8"
 
 	"def_attach1"					"atdm:ai_anthro_tail_lapine_gray"
 	"name_attach1"					"tail"
@@ -2032,6 +2061,7 @@ entityDef atdm:env_ragdoll_anthro_lapine_female_black
 	"model"							"anthro_body_female"
 	"skin"         					"anthros/anthro_body_black"
 	"def_head"						"atdm:ai_anthro_head_lapine_female_black"
+	"offsetHeadModel"				"1.0 0 -2.8"
 
 	"def_attach1"					"atdm:ai_anthro_tail_lapine_black"
 	"name_attach1"					"tail"

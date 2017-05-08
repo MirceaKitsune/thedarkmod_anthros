@@ -180,9 +180,8 @@ models/md5/chars/anthros/anthro_eye_red
 	specularmap models/md5/chars/anthros/anthro_eye_s
 
 	{
-		forceHighQuality
 		blend add
-		cameraCubeMap env/eye
+		cubeMap env/gen2
 		texgen reflect
 	}
 }
@@ -199,9 +198,8 @@ models/md5/chars/anthros/anthro_eye_yellow
 	specularmap models/md5/chars/anthros/anthro_eye_s
 
 	{
-		forceHighQuality
 		blend add
-		cameraCubeMap env/eye
+		cubeMap env/gen2
 		texgen reflect
 	}
 }
@@ -218,9 +216,8 @@ models/md5/chars/anthros/anthro_eye_green
 	specularmap models/md5/chars/anthros/anthro_eye_s
 
 	{
-		forceHighQuality
 		blend add
-		cameraCubeMap env/eye
+		cubeMap env/gen2
 		texgen reflect
 	}
 }
@@ -237,9 +234,8 @@ models/md5/chars/anthros/anthro_eye_blue
 	specularmap models/md5/chars/anthros/anthro_eye_s
 
 	{
-		forceHighQuality
 		blend add
-		cameraCubeMap env/eye
+		cubeMap env/gen2
 		texgen reflect
 	}
 }
@@ -256,9 +252,8 @@ models/md5/chars/anthros/anthro_eye_magenta
 	specularmap models/md5/chars/anthros/anthro_eye_s
 
 	{
-		forceHighQuality
 		blend add
-		cameraCubeMap env/eye
+		cubeMap env/gen2
 		texgen reflect
 	}
 }
