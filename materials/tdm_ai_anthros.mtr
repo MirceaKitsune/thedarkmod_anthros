@@ -15,6 +15,11 @@ models/md5/chars/anthros/anthro_hair_yellow
 		map models/md5/chars/anthros/anthro_hair_yellow
 		alphatest 0.5
 	}
+
+	bumpmap models/md5/chars/anthros/anthro_hair_local
+	specularmap models/md5/chars/anthros/anthro_hair_s
+
+	// Frob highlighting
 	{
 		if ( parm11 > 0 )
 		blend gl_dst_color, gl_one
@@ -28,8 +33,16 @@ models/md5/chars/anthros/anthro_hair_yellow
 		rgb 0.15 * parm11
 	}
 
-	bumpmap models/md5/chars/anthros/anthro_hair_local
-	specularmap models/md5/chars/anthros/anthro_hair_s
+	// TDM Ambient Method
+	{
+		if ( global5 == 1 )
+		blend add
+		map models/md5/chars/anthros/anthro_hair_yellow
+		scale 1, 1
+		red global2
+		green global3
+		blue global4
+	}
 }
 
 models/md5/chars/anthros/anthro_hair_orange
@@ -49,6 +62,11 @@ models/md5/chars/anthros/anthro_hair_orange
 		map models/md5/chars/anthros/anthro_hair_orange
 		alphatest 0.5
 	}
+
+	bumpmap models/md5/chars/anthros/anthro_hair_local
+	specularmap models/md5/chars/anthros/anthro_hair_s
+
+	// Frob highlighting
 	{
 		if ( parm11 > 0 )
 		blend gl_dst_color, gl_one
@@ -62,8 +80,16 @@ models/md5/chars/anthros/anthro_hair_orange
 		rgb 0.15 * parm11
 	}
 
-	bumpmap models/md5/chars/anthros/anthro_hair_local
-	specularmap models/md5/chars/anthros/anthro_hair_s
+	// TDM Ambient Method
+	{
+		if ( global5 == 1 )
+		blend add
+		map models/md5/chars/anthros/anthro_hair_orange
+		scale 1, 1
+		red global2
+		green global3
+		blue global4
+	}
 }
 
 models/md5/chars/anthros/anthro_hair_red
@@ -83,6 +109,11 @@ models/md5/chars/anthros/anthro_hair_red
 		map models/md5/chars/anthros/anthro_hair_red
 		alphatest 0.5
 	}
+
+	bumpmap models/md5/chars/anthros/anthro_hair_local
+	specularmap models/md5/chars/anthros/anthro_hair_s
+
+	// Frob highlighting
 	{
 		if ( parm11 > 0 )
 		blend gl_dst_color, gl_one
@@ -96,8 +127,16 @@ models/md5/chars/anthros/anthro_hair_red
 		rgb 0.15 * parm11
 	}
 
-	bumpmap models/md5/chars/anthros/anthro_hair_local
-	specularmap models/md5/chars/anthros/anthro_hair_s
+	// TDM Ambient Method
+	{
+		if ( global5 == 1 )
+		blend add
+		map models/md5/chars/anthros/anthro_hair_red
+		scale 1, 1
+		red global2
+		green global3
+		blue global4
+	}
 }
 
 models/md5/chars/anthros/anthro_hair_white
@@ -117,6 +156,11 @@ models/md5/chars/anthros/anthro_hair_white
 		map models/md5/chars/anthros/anthro_hair_white
 		alphatest 0.5
 	}
+
+	bumpmap models/md5/chars/anthros/anthro_hair_local
+	specularmap models/md5/chars/anthros/anthro_hair_s
+
+	// Frob highlighting
 	{
 		if ( parm11 > 0 )
 		blend gl_dst_color, gl_one
@@ -130,8 +174,16 @@ models/md5/chars/anthros/anthro_hair_white
 		rgb 0.15 * parm11
 	}
 
-	bumpmap models/md5/chars/anthros/anthro_hair_local
-	specularmap models/md5/chars/anthros/anthro_hair_s
+	// TDM Ambient Method
+	{
+		if ( global5 == 1 )
+		blend add
+		map models/md5/chars/anthros/anthro_hair_white
+		scale 1, 1
+		red global2
+		green global3
+		blue global4
+	}
 }
 
 models/md5/chars/anthros/anthro_hair_black
@@ -151,6 +203,11 @@ models/md5/chars/anthros/anthro_hair_black
 		map models/md5/chars/anthros/anthro_hair_black
 		alphatest 0.5
 	}
+
+	bumpmap models/md5/chars/anthros/anthro_hair_local
+	specularmap models/md5/chars/anthros/anthro_hair_s
+
+	// Frob highlighting
 	{
 		if ( parm11 > 0 )
 		blend gl_dst_color, gl_one
@@ -164,8 +221,16 @@ models/md5/chars/anthros/anthro_hair_black
 		rgb 0.15 * parm11
 	}
 
-	bumpmap models/md5/chars/anthros/anthro_hair_local
-	specularmap models/md5/chars/anthros/anthro_hair_s
+	// TDM Ambient Method
+	{
+		if ( global5 == 1 )
+		blend add
+		map models/md5/chars/anthros/anthro_hair_black
+		scale 1, 1
+		red global2
+		green global3
+		blue global4
+	}
 }
 
 models/md5/chars/anthros/anthro_eye_red
@@ -179,10 +244,36 @@ models/md5/chars/anthros/anthro_eye_red
 	bumpmap models/md5/chars/anthros/anthro_eye_local
 	specularmap models/md5/chars/anthros/anthro_eye_s
 
+	// Reflection
 	{
 		blend add
 		cubeMap env/gen2
 		texgen reflect
+	}
+
+	// Frob highlighting
+	{
+		if ( parm11 > 0 )
+		blend gl_dst_color, gl_one
+		map _white.tga
+		rgb 0.40 * parm11
+	}
+	{
+		if ( parm11 > 0 )
+		blend add
+		map models/md5/chars/anthros/anthro_eye_red
+		rgb 0.15 * parm11
+	}
+
+	// TDM Ambient Method
+	{
+		if ( global5 == 1 )
+		blend add
+		map models/md5/chars/anthros/anthro_eye_red
+		scale 1, 1
+		red global2
+		green global3
+		blue global4
 	}
 }
 
@@ -197,10 +288,36 @@ models/md5/chars/anthros/anthro_eye_yellow
 	bumpmap models/md5/chars/anthros/anthro_eye_local
 	specularmap models/md5/chars/anthros/anthro_eye_s
 
+	// Reflection
 	{
 		blend add
 		cubeMap env/gen2
 		texgen reflect
+	}
+
+	// Frob highlighting
+	{
+		if ( parm11 > 0 )
+		blend gl_dst_color, gl_one
+		map _white.tga
+		rgb 0.40 * parm11
+	}
+	{
+		if ( parm11 > 0 )
+		blend add
+		map models/md5/chars/anthros/anthro_eye_yellow
+		rgb 0.15 * parm11
+	}
+
+	// TDM Ambient Method
+	{
+		if ( global5 == 1 )
+		blend add
+		map models/md5/chars/anthros/anthro_eye_yellow
+		scale 1, 1
+		red global2
+		green global3
+		blue global4
 	}
 }
 
@@ -215,10 +332,36 @@ models/md5/chars/anthros/anthro_eye_green
 	bumpmap models/md5/chars/anthros/anthro_eye_local
 	specularmap models/md5/chars/anthros/anthro_eye_s
 
+	// Reflection
 	{
 		blend add
 		cubeMap env/gen2
 		texgen reflect
+	}
+
+	// Frob highlighting
+	{
+		if ( parm11 > 0 )
+		blend gl_dst_color, gl_one
+		map _white.tga
+		rgb 0.40 * parm11
+	}
+	{
+		if ( parm11 > 0 )
+		blend add
+		map models/md5/chars/anthros/anthro_eye_green
+		rgb 0.15 * parm11
+	}
+
+	// TDM Ambient Method
+	{
+		if ( global5 == 1 )
+		blend add
+		map models/md5/chars/anthros/anthro_eye_green
+		scale 1, 1
+		red global2
+		green global3
+		blue global4
 	}
 }
 
@@ -233,10 +376,36 @@ models/md5/chars/anthros/anthro_eye_blue
 	bumpmap models/md5/chars/anthros/anthro_eye_local
 	specularmap models/md5/chars/anthros/anthro_eye_s
 
+	// Reflection
 	{
 		blend add
 		cubeMap env/gen2
 		texgen reflect
+	}
+
+	// Frob highlighting
+	{
+		if ( parm11 > 0 )
+		blend gl_dst_color, gl_one
+		map _white.tga
+		rgb 0.40 * parm11
+	}
+	{
+		if ( parm11 > 0 )
+		blend add
+		map models/md5/chars/anthros/anthro_eye_blue
+		rgb 0.15 * parm11
+	}
+
+	// TDM Ambient Method
+	{
+		if ( global5 == 1 )
+		blend add
+		map models/md5/chars/anthros/anthro_eye_blue
+		scale 1, 1
+		red global2
+		green global3
+		blue global4
 	}
 }
 
@@ -251,10 +420,36 @@ models/md5/chars/anthros/anthro_eye_magenta
 	bumpmap models/md5/chars/anthros/anthro_eye_local
 	specularmap models/md5/chars/anthros/anthro_eye_s
 
+	// Reflection
 	{
 		blend add
 		cubeMap env/gen2
 		texgen reflect
+	}
+
+	// Frob highlighting
+	{
+		if ( parm11 > 0 )
+		blend gl_dst_color, gl_one
+		map _white.tga
+		rgb 0.40 * parm11
+	}
+	{
+		if ( parm11 > 0 )
+		blend add
+		map models/md5/chars/anthros/anthro_eye_magenta
+		rgb 0.15 * parm11
+	}
+
+	// TDM Ambient Method
+	{
+		if ( global5 == 1 )
+		blend add
+		map models/md5/chars/anthros/anthro_eye_magenta
+		scale 1, 1
+		red global2
+		green global3
+		blue global4
 	}
 }
 
@@ -269,6 +464,31 @@ models/md5/chars/anthros/anthro_mouth
 	diffusemap models/md5/chars/anthros/anthro_mouth
 	bumpmap models/md5/chars/anthros/anthro_mouth_local
 	specularmap models/md5/chars/anthros/anthro_mouth_s
+
+	// Frob highlighting
+	{
+		if ( parm11 > 0 )
+		blend gl_dst_color, gl_one
+		map _white.tga
+		rgb 0.40 * parm11
+	}
+	{
+		if ( parm11 > 0 )
+		blend add
+		map models/md5/chars/anthros/anthro_mouth
+		rgb 0.15 * parm11
+	}
+
+	// TDM Ambient Method
+	{
+		if ( global5 == 1 )
+		blend add
+		map models/md5/chars/anthros/anthro_mouth
+		scale 1, 1
+		red global2
+		green global3
+		blue global4
+	}
 }
 
 models/md5/chars/anthros/anthro_body_yellow
@@ -282,6 +502,31 @@ models/md5/chars/anthros/anthro_body_yellow
 	diffusemap models/md5/chars/anthros/anthro_body_yellow
 	bumpmap models/md5/chars/anthros/anthro_body_local
 	specularmap models/md5/chars/anthros/anthro_body_s
+
+	// Frob highlighting
+	{
+		if ( parm11 > 0 )
+		blend gl_dst_color, gl_one
+		map _white.tga
+		rgb 0.40 * parm11
+	}
+	{
+		if ( parm11 > 0 )
+		blend add
+		map models/md5/chars/anthros/anthro_body_yellow
+		rgb 0.15 * parm11
+	}
+
+	// TDM Ambient Method
+	{
+		if ( global5 == 1 )
+		blend add
+		map models/md5/chars/anthros/anthro_body_yellow
+		scale 1, 1
+		red global2
+		green global3
+		blue global4
+	}
 }
 
 models/md5/chars/anthros/anthro_body_orange
@@ -295,6 +540,31 @@ models/md5/chars/anthros/anthro_body_orange
 	diffusemap models/md5/chars/anthros/anthro_body_orange
 	bumpmap models/md5/chars/anthros/anthro_body_local
 	specularmap models/md5/chars/anthros/anthro_body_s
+
+	// Frob highlighting
+	{
+		if ( parm11 > 0 )
+		blend gl_dst_color, gl_one
+		map _white.tga
+		rgb 0.40 * parm11
+	}
+	{
+		if ( parm11 > 0 )
+		blend add
+		map models/md5/chars/anthros/anthro_body_orange
+		rgb 0.15 * parm11
+	}
+
+	// TDM Ambient Method
+	{
+		if ( global5 == 1 )
+		blend add
+		map models/md5/chars/anthros/anthro_body_orange
+		scale 1, 1
+		red global2
+		green global3
+		blue global4
+	}
 }
 
 models/md5/chars/anthros/anthro_body_red
@@ -308,6 +578,31 @@ models/md5/chars/anthros/anthro_body_red
 	diffusemap models/md5/chars/anthros/anthro_body_red
 	bumpmap models/md5/chars/anthros/anthro_body_local
 	specularmap models/md5/chars/anthros/anthro_body_s
+
+	// Frob highlighting
+	{
+		if ( parm11 > 0 )
+		blend gl_dst_color, gl_one
+		map _white.tga
+		rgb 0.40 * parm11
+	}
+	{
+		if ( parm11 > 0 )
+		blend add
+		map models/md5/chars/anthros/anthro_body_red
+		rgb 0.15 * parm11
+	}
+
+	// TDM Ambient Method
+	{
+		if ( global5 == 1 )
+		blend add
+		map models/md5/chars/anthros/anthro_body_red
+		scale 1, 1
+		red global2
+		green global3
+		blue global4
+	}
 }
 
 models/md5/chars/anthros/anthro_body_white
@@ -321,6 +616,31 @@ models/md5/chars/anthros/anthro_body_white
 	diffusemap models/md5/chars/anthros/anthro_body_white
 	bumpmap models/md5/chars/anthros/anthro_body_local
 	specularmap models/md5/chars/anthros/anthro_body_s
+
+	// Frob highlighting
+	{
+		if ( parm11 > 0 )
+		blend gl_dst_color, gl_one
+		map _white.tga
+		rgb 0.40 * parm11
+	}
+	{
+		if ( parm11 > 0 )
+		blend add
+		map models/md5/chars/anthros/anthro_body_white
+		rgb 0.15 * parm11
+	}
+
+	// TDM Ambient Method
+	{
+		if ( global5 == 1 )
+		blend add
+		map models/md5/chars/anthros/anthro_body_white
+		scale 1, 1
+		red global2
+		green global3
+		blue global4
+	}
 }
 
 models/md5/chars/anthros/anthro_body_silver
@@ -334,6 +654,31 @@ models/md5/chars/anthros/anthro_body_silver
 	diffusemap models/md5/chars/anthros/anthro_body_silver
 	bumpmap models/md5/chars/anthros/anthro_body_local
 	specularmap models/md5/chars/anthros/anthro_body_s
+
+	// Frob highlighting
+	{
+		if ( parm11 > 0 )
+		blend gl_dst_color, gl_one
+		map _white.tga
+		rgb 0.40 * parm11
+	}
+	{
+		if ( parm11 > 0 )
+		blend add
+		map models/md5/chars/anthros/anthro_body_silver
+		rgb 0.15 * parm11
+	}
+
+	// TDM Ambient Method
+	{
+		if ( global5 == 1 )
+		blend add
+		map models/md5/chars/anthros/anthro_body_silver
+		scale 1, 1
+		red global2
+		green global3
+		blue global4
+	}
 }
 
 models/md5/chars/anthros/anthro_body_gray
@@ -347,6 +692,31 @@ models/md5/chars/anthros/anthro_body_gray
 	diffusemap models/md5/chars/anthros/anthro_body_gray
 	bumpmap models/md5/chars/anthros/anthro_body_local
 	specularmap models/md5/chars/anthros/anthro_body_s
+
+	// Frob highlighting
+	{
+		if ( parm11 > 0 )
+		blend gl_dst_color, gl_one
+		map _white.tga
+		rgb 0.40 * parm11
+	}
+	{
+		if ( parm11 > 0 )
+		blend add
+		map models/md5/chars/anthros/anthro_body_gray
+		rgb 0.15 * parm11
+	}
+
+	// TDM Ambient Method
+	{
+		if ( global5 == 1 )
+		blend add
+		map models/md5/chars/anthros/anthro_body_gray
+		scale 1, 1
+		red global2
+		green global3
+		blue global4
+	}
 }
 
 models/md5/chars/anthros/anthro_body_black
@@ -360,4 +730,29 @@ models/md5/chars/anthros/anthro_body_black
 	diffusemap models/md5/chars/anthros/anthro_body_black
 	bumpmap models/md5/chars/anthros/anthro_body_local
 	specularmap models/md5/chars/anthros/anthro_body_s
+
+	// Frob highlighting
+	{
+		if ( parm11 > 0 )
+		blend gl_dst_color, gl_one
+		map _white.tga
+		rgb 0.40 * parm11
+	}
+	{
+		if ( parm11 > 0 )
+		blend add
+		map models/md5/chars/anthros/anthro_body_black
+		rgb 0.15 * parm11
+	}
+
+	// TDM Ambient Method
+	{
+		if ( global5 == 1 )
+		blend add
+		map models/md5/chars/anthros/anthro_body_black
+		scale 1, 1
+		red global2
+		green global3
+		blue global4
+	}
 }
